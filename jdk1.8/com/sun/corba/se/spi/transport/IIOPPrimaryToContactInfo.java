@@ -25,9 +25,9 @@
 
 package com.sun.corba.se.spi.transport;
 
-import java.util.List;
-
 import com.sun.corba.se.pept.transport.ContactInfo;
+
+import java.util.List;
 
 /**
  * This interface is the "sticky manager" for IIOP failover.  The default

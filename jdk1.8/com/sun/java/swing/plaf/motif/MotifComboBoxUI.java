@@ -24,14 +24,7 @@
  */
 package com.sun.java.swing.plaf.motif;
 
-import java.awt.*;
-import javax.swing.*;
-import javax.swing.plaf.*;
-import javax.swing.border.*;
-import javax.swing.plaf.basic.*;
 import java.io.Serializable;
-import java.awt.event.*;
-import java.beans.*;
 
 /**
  * ComboBox motif look and feel

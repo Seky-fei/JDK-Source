@@ -25,13 +25,10 @@
 
 package com.sun.corba.se.spi.protocol;
 
-import org.omg.CORBA.BAD_PARAM ;
-
-import com.sun.corba.se.impl.orbutil.ORBUtility ;
-
-import com.sun.corba.se.spi.ior.IOR ;
-
-import com.sun.corba.se.spi.orb.ORB ;
+import com.sun.corba.se.impl.orbutil.ORBUtility;
+import com.sun.corba.se.spi.ior.IOR;
+import com.sun.corba.se.spi.orb.ORB;
+import org.omg.CORBA.BAD_PARAM;
 
 /**
  * Thrown to signal an OBJECT_FORWARD or LOCATION_FORWARD

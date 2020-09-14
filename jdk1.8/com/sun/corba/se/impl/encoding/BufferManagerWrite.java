@@ -25,13 +25,10 @@
 
 package com.sun.corba.se.impl.encoding;
 
-import com.sun.corba.se.spi.logging.CORBALogDomains;
-
-import com.sun.corba.se.spi.orb.ORB;
-
 import com.sun.corba.se.impl.encoding.ByteBufferWithInfo;
-
 import com.sun.corba.se.impl.logging.ORBUtilSystemException;
+import com.sun.corba.se.spi.logging.CORBALogDomains;
+import com.sun.corba.se.spi.orb.ORB;
 
 /**
  * Defines the contract between the BufferManager and

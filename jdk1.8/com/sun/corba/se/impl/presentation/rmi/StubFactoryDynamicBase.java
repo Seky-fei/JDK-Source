@@ -25,15 +25,9 @@
 
 package com.sun.corba.se.impl.presentation.rmi ;
 
+import com.sun.corba.se.spi.presentation.rmi.PresentationManager;
+
 import java.io.SerializablePermission;
-import java.lang.reflect.InvocationHandler ;
-import java.lang.reflect.Proxy ;
-
-import com.sun.corba.se.spi.presentation.rmi.PresentationManager ;
-import com.sun.corba.se.spi.presentation.rmi.DynamicStub ;
-
-import com.sun.corba.se.spi.orbutil.proxy.InvocationHandlerFactory ;
-import com.sun.corba.se.spi.orbutil.proxy.LinkedInvocationHandler ;
 
 public abstract class StubFactoryDynamicBase extends StubFactoryBase
 {

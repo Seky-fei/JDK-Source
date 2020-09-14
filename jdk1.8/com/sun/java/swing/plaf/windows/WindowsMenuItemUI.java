@@ -25,15 +25,9 @@
 
 package com.sun.java.swing.plaf.windows;
 
-import java.awt.*;
-import javax.swing.*;
-import javax.swing.plaf.*;
-import javax.swing.plaf.basic.*;
-
-import sun.swing.SwingUtilities2;
-
 import com.sun.java.swing.plaf.windows.TMSchema.*;
 import com.sun.java.swing.plaf.windows.XPStyle.*;
+import sun.swing.SwingUtilities2;
 
 /**
  * Windows rendition of the component.

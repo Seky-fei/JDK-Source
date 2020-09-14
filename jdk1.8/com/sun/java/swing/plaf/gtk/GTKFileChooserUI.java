@@ -24,28 +24,14 @@
  */
 package com.sun.java.swing.plaf.gtk;
 
-import java.awt.*;
-import java.awt.event.*;
-import java.beans.*;
+import sun.awt.shell.ShellFolder;
+import sun.swing.FilePane;
+import sun.swing.SwingUtilities2;
+
+import javax.swing.plaf.basic.BasicDirectoryModel;
 import java.io.File;
 import java.io.IOException;
 import java.text.MessageFormat;
-import java.util.*;
-
-import javax.swing.*;
-import javax.swing.border.*;
-import javax.swing.filechooser.*;
-import javax.swing.event.*;
-import javax.swing.plaf.*;
-import javax.swing.plaf.basic.BasicDirectoryModel;
-import javax.swing.table.*;
-import javax.accessibility.*;
-
-import sun.swing.SwingUtilities2;
-
-import sun.swing.plaf.synth.*;
-import sun.swing.FilePane;
-import sun.awt.shell.ShellFolder;
 
 /**
  * GTK FileChooserUI.

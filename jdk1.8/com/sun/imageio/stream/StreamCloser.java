@@ -25,10 +25,10 @@
 
 package com.sun.imageio.stream;
 
+import javax.imageio.stream.ImageInputStream;
 import java.io.IOException;
 import java.util.Set;
 import java.util.WeakHashMap;
-import javax.imageio.stream.ImageInputStream;
 
 /**
  * This class provide means to properly close hanging

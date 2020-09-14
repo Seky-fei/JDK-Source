@@ -25,21 +25,15 @@
 
 package com.sun.java.swing.plaf.windows;
 
-import java.beans.PropertyChangeListener;
+import sun.swing.DefaultLookup;
+import sun.swing.StringUIClientPropertyKey;
+
 import java.beans.PropertyChangeEvent;
-import javax.swing.plaf.basic.*;
-import javax.swing.plaf.*;
-import javax.swing.border.*;
-import javax.swing.*;
-import java.awt.event.*;
-import java.awt.*;
+import java.beans.PropertyChangeListener;
 
 import static com.sun.java.swing.plaf.windows.TMSchema.Part;
 import static com.sun.java.swing.plaf.windows.TMSchema.State;
 import static com.sun.java.swing.plaf.windows.XPStyle.Skin;
-
-import sun.swing.DefaultLookup;
-import sun.swing.StringUIClientPropertyKey;
 
 
 /**

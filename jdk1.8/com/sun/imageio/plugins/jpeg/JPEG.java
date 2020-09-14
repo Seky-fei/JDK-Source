@@ -26,12 +26,11 @@
 package com.sun.imageio.plugins.jpeg;
 
 import javax.imageio.ImageTypeSpecifier;
-import javax.imageio.plugins.jpeg.JPEGQTable;
 import javax.imageio.plugins.jpeg.JPEGHuffmanTable;
-
-import java.awt.image.ColorModel;
+import javax.imageio.plugins.jpeg.JPEGQTable;
 import java.awt.color.ColorSpace;
 import java.awt.color.ICC_ColorSpace;
+import java.awt.image.ColorModel;
 
 /**
  * A class containing JPEG-related constants, definitions, and

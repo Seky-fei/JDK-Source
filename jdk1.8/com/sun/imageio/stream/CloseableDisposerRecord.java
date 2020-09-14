@@ -25,9 +25,10 @@
 
 package com.sun.imageio.stream;
 
+import sun.java2d.DisposerRecord;
+
 import java.io.Closeable;
 import java.io.IOException;
-import sun.java2d.DisposerRecord;
 
 /**
  * Convenience class that closes a given resource (e.g. RandomAccessFile),

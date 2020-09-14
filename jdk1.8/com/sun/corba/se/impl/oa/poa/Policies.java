@@ -25,18 +25,14 @@
 
 package com.sun.corba.se.impl.oa.poa;
 
-import java.util.HashMap ;
-import java.util.BitSet ;
-import java.util.Iterator ;
+import com.sun.corba.se.impl.orbutil.ORBConstants;
+import com.sun.corba.se.spi.extension.CopyObjectPolicy;
+import com.sun.corba.se.spi.extension.ServantCachingPolicy;
+import com.sun.corba.se.spi.extension.ZeroPortPolicy;
 
-import com.sun.corba.se.impl.orbutil.ORBConstants ;
-import com.sun.corba.se.spi.extension.ServantCachingPolicy ;
-import com.sun.corba.se.spi.extension.ZeroPortPolicy ;
-import com.sun.corba.se.spi.extension.CopyObjectPolicy ;
-
-import org.omg.CORBA.*;
-import org.omg.PortableServer.*;
-import org.omg.PortableServer.POAPackage.*;
+import java.util.BitSet;
+import java.util.HashMap;
+import java.util.Iterator;
 
 public final class Policies {
 /* Order of *POLICY_ID :

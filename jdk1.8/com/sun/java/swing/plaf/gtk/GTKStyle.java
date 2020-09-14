@@ -25,20 +25,11 @@
 
 package com.sun.java.swing.plaf.gtk;
 
-import java.awt.*;
-import java.lang.reflect.*;
-import java.security.*;
-import java.util.*;
-import javax.swing.*;
-import javax.swing.plaf.*;
-import javax.swing.plaf.synth.*;
-
+import com.sun.java.swing.plaf.gtk.GTKEngine.WidgetType;
 import sun.awt.AppContext;
 import sun.awt.UNIXToolkit;
 import sun.swing.SwingUtilities2;
 import sun.swing.plaf.synth.SynthIcon;
-
-import com.sun.java.swing.plaf.gtk.GTKEngine.WidgetType;
 
 /**
  *

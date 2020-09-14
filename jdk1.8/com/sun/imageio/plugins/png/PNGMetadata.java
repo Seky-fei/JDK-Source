@@ -25,17 +25,18 @@
 
 package com.sun.imageio.plugins.png;
 
-import java.awt.image.ColorModel;
-import java.awt.image.IndexColorModel;
-import java.awt.image.SampleModel;
-import java.util.ArrayList;
-import java.util.StringTokenizer;
+import org.w3c.dom.Node;
+
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.metadata.IIOInvalidTreeException;
 import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
 import javax.imageio.metadata.IIOMetadataNode;
-import org.w3c.dom.Node;
+import java.awt.image.ColorModel;
+import java.awt.image.IndexColorModel;
+import java.awt.image.SampleModel;
+import java.util.ArrayList;
+import java.util.StringTokenizer;
 
 public class PNGMetadata extends IIOMetadata implements Cloneable {
 

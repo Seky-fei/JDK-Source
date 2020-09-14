@@ -24,16 +24,10 @@
  */
 package com.sun.java.swing.plaf.motif;
 
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Insets;
-import java.awt.Rectangle;
-
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.JScrollBar;
+import javax.swing.*;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicScrollBarUI;
+import java.awt.*;
 
 import static sun.swing.SwingUtilities2.drawHLine;
 import static sun.swing.SwingUtilities2.drawVLine;

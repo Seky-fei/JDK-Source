@@ -25,12 +25,11 @@
 
 package com.sun.corba.se.spi.transport;
 
+import com.sun.corba.se.impl.oa.poa.Policies;
 import com.sun.corba.se.pept.transport.Acceptor;
-
 import com.sun.corba.se.spi.ior.IORTemplate;
 
 // REVISIT - impl/poa specific:
-import com.sun.corba.se.impl.oa.poa.Policies;
 
 /**
  * @author Harold Carr

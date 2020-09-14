@@ -24,9 +24,6 @@
  */
 package com.sun.java.swing.plaf.motif;
 
-import javax.swing.*;
-import javax.swing.text.*;
-import javax.swing.plaf.*;
 import javax.swing.plaf.basic.BasicTextPaneUI;
 
 /**

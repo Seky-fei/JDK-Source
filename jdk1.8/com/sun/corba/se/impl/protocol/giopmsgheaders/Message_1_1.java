@@ -25,14 +25,12 @@
 
 package com.sun.corba.se.impl.protocol.giopmsgheaders;
 
-import java.nio.ByteBuffer;
-import org.omg.CORBA.INTERNAL;
+import com.sun.corba.se.impl.logging.ORBUtilSystemException;
+import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
+import com.sun.corba.se.spi.logging.CORBALogDomains;
 import org.omg.CORBA.CompletionStatus;
 
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
-
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
-import com.sun.corba.se.impl.logging.ORBUtilSystemException ;
+import java.nio.ByteBuffer;
 
 /*
  * This implements the GIOP 1.1 & 1.2 Message header.

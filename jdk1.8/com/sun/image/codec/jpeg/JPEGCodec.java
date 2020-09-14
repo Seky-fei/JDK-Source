@@ -19,9 +19,9 @@ package com.sun.image.codec.jpeg;
 import sun.awt.image.codec.JPEGImageDecoderImpl;
 import sun.awt.image.codec.JPEGImageEncoderImpl;
 import sun.awt.image.codec.JPEGParam;
+
 import java.awt.image.BufferedImage;
 import java.awt.image.Raster;
-import java.awt.image.ColorModel;
 import java.io.InputStream;
 import java.io.OutputStream;
 

@@ -25,8 +25,9 @@
 
 package com.sun.corba.se.impl.naming.pcosnaming;
 
-import java.io.Serializable;
 import org.omg.CosNaming.NameComponent;
+
+import java.io.Serializable;
 
 
 /**

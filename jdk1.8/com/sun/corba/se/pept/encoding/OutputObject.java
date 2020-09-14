@@ -25,9 +25,9 @@
 
 package com.sun.corba.se.pept.encoding;
 
-import java.io.IOException;
-
 import com.sun.corba.se.pept.protocol.MessageMediator;
+
+import java.io.IOException;
 
 /**
  * <p> An <code>OutputObject</code> is the interface used by the

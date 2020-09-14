@@ -25,15 +25,12 @@
 
 package com.sun.java.swing.plaf.windows;
 
-import java.awt.*;
-
-import javax.swing.*;
-import javax.swing.plaf.basic.BasicPopupMenuSeparatorUI;
-import javax.swing.plaf.ComponentUI;
-
 import com.sun.java.swing.plaf.windows.TMSchema.Part;
 import com.sun.java.swing.plaf.windows.TMSchema.State;
 import com.sun.java.swing.plaf.windows.XPStyle.Skin;
+
+import javax.swing.plaf.ComponentUI;
+import javax.swing.plaf.basic.BasicPopupMenuSeparatorUI;
 
 /**
  * Windows L&F implementation of PopupMenuSeparatorUI.

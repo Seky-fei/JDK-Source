@@ -25,10 +25,9 @@
 
 package com.sun.corba.se.spi.transport ;
 
-import com.sun.corba.se.spi.transport.CorbaContactInfoList ;
-
-import com.sun.corba.se.spi.ior.IOR ;
+import com.sun.corba.se.spi.ior.IOR;
 import com.sun.corba.se.spi.orb.ORB;
+import com.sun.corba.se.spi.transport.CorbaContactInfoList;
 
 /** Interface used to create a ContactInfoList from an IOR, as required
  * for supporting CORBA semantics using the DCS framework.  This is a

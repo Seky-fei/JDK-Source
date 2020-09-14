@@ -24,18 +24,8 @@
  */
 package com.sun.java.swing.plaf.gtk;
 
-import java.util.*;
-import javax.swing.plaf.synth.*;
-import java.awt.*;
-import java.awt.image.BufferedImage;
-import java.lang.reflect.*;
-import javax.swing.*;
-import javax.swing.plaf.*;
-import sun.swing.plaf.synth.*;
 import com.sun.java.swing.plaf.gtk.GTKConstants.ArrowType;
-import com.sun.java.swing.plaf.gtk.GTKConstants.ExpanderStyle;
 import com.sun.java.swing.plaf.gtk.GTKConstants.Orientation;
-import com.sun.java.swing.plaf.gtk.GTKConstants.ShadowType;
 
 /**
  */

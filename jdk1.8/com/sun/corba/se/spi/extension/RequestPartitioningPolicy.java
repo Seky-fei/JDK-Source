@@ -25,13 +25,11 @@
 
 package com.sun.corba.se.spi.extension ;
 
-import org.omg.CORBA.Policy ;
-import org.omg.CORBA.LocalObject ;
-
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
-
-import com.sun.corba.se.impl.logging.ORBUtilSystemException ;
-import com.sun.corba.se.impl.orbutil.ORBConstants ;
+import com.sun.corba.se.impl.logging.ORBUtilSystemException;
+import com.sun.corba.se.impl.orbutil.ORBConstants;
+import com.sun.corba.se.spi.logging.CORBALogDomains;
+import org.omg.CORBA.LocalObject;
+import org.omg.CORBA.Policy;
 
 /** Policy used to support the request partitioning feature and to
  *  specify the partition to use.

@@ -27,15 +27,9 @@ package com.sun.corba.se.impl.naming.cosnaming;
 
 // Import general CORBA classes
 import org.omg.CORBA.Object;
+import org.omg.PortableServer.POA;
 
 // Import org.omg.CosNaming classes
-import org.omg.CosNaming.BindingType;
-import org.omg.CosNaming.BindingTypeHolder;
-import org.omg.CosNaming.BindingListHolder;
-import org.omg.CosNaming.BindingIteratorHolder;
-import org.omg.CosNaming.NameComponent;
-import org.omg.CosNaming.NamingContext;
-import org.omg.PortableServer.POA;
 
 /**
  * This interface defines a set of methods that must be implemented by the

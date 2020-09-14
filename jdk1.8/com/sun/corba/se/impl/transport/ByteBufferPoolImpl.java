@@ -25,12 +25,11 @@
 
 package com.sun.corba.se.impl.transport;
 
-import java.nio.ByteBuffer;
-import java.util.ArrayList;
-
+import com.sun.corba.se.pept.transport.ByteBufferPool;
 import com.sun.corba.se.spi.orb.ORB;
 
-import com.sun.corba.se.pept.transport.ByteBufferPool;
+import java.nio.ByteBuffer;
+import java.util.ArrayList;
 
 /**
  * @author Charlie Hunt

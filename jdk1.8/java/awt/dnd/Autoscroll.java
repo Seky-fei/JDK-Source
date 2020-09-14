@@ -25,8 +25,6 @@
 
 package java.awt.dnd;
 
-import java.awt.*;
-
 /**
  * During DnD operations it is possible that a user may wish to drop the
  * subject of the operation on a region of a scrollable GUI control that is

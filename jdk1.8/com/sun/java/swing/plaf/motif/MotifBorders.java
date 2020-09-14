@@ -26,19 +26,8 @@
 package com.sun.java.swing.plaf.motif;
 
 import sun.swing.SwingUtilities2;
-import javax.swing.*;
-import javax.swing.border.*;
-import javax.swing.plaf.*;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.Graphics;
-import java.awt.Insets;
-import java.awt.Point;
-import java.awt.Rectangle;
+import java.awt.*;
 
 /**
  * Factory object that can vend Icons appropriate for the basic L & F.

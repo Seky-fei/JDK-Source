@@ -25,28 +25,23 @@
 
 package com.sun.corba.se.spi.presentation.rmi ;
 
-import javax.rmi.CORBA.Tie ;
+import com.sun.corba.se.impl.logging.ORBUtilSystemException;
+import com.sun.corba.se.impl.oa.poa.POAManagerImpl;
+import com.sun.corba.se.spi.logging.CORBALogDomains;
+import org.omg.CORBA.ORB;
+import org.omg.CORBA.portable.Delegate;
+import org.omg.CORBA.portable.ObjectImpl;
+import org.omg.CORBA.portable.OutputStream;
+import org.omg.PortableServer.POA;
+import org.omg.PortableServer.POAManager;
+import org.omg.PortableServer.POAPackage.ServantNotActive;
+import org.omg.PortableServer.POAPackage.WrongPolicy;
+import org.omg.PortableServer.Servant;
 
-import org.omg.CORBA.portable.Delegate ;
-import org.omg.CORBA.portable.ObjectImpl ;
-import org.omg.CORBA.portable.OutputStream ;
-
-import org.omg.PortableServer.POA ;
-import org.omg.PortableServer.POAManager ;
-import org.omg.PortableServer.Servant ;
-
-import org.omg.PortableServer.POAPackage.WrongPolicy ;
-import org.omg.PortableServer.POAPackage.ServantNotActive ;
-import org.omg.PortableServer.POAManagerPackage.AdapterInactive ;
-
-import org.omg.CORBA.ORB ;
-
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
-import com.sun.corba.se.impl.logging.ORBUtilSystemException ;
+import javax.rmi.CORBA.Tie;
 
 // XXX Getting rid of this requires introducing an ObjectAdapterManager abstraction
 // as an interface into the OA framework.
-import com.sun.corba.se.impl.oa.poa.POAManagerImpl ;
 
 /** Provide access to stub delegate and type id information
  * independent of the stub type.  This class exists because

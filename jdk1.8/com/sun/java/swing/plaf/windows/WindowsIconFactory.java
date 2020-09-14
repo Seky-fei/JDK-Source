@@ -25,17 +25,14 @@
 
 package com.sun.java.swing.plaf.windows;
 
-import javax.swing.*;
+import sun.swing.MenuItemCheckIconFactory;
+
 import javax.swing.plaf.ButtonUI;
 import javax.swing.plaf.UIResource;
-
-import java.awt.*;
 import java.io.Serializable;
 
 import static com.sun.java.swing.plaf.windows.TMSchema.*;
 import static com.sun.java.swing.plaf.windows.XPStyle.Skin;
-
-import sun.swing.MenuItemCheckIconFactory;
 
 /**
  * Factory object that can vend Icons appropriate for the Windows L & F.

@@ -25,27 +25,12 @@
 
 package com.sun.java.swing.plaf.windows;
 
-import javax.swing.*;
-import javax.swing.border.*;
-import javax.swing.filechooser.*;
-import javax.swing.event.*;
-import javax.swing.plaf.*;
-import javax.swing.plaf.basic.*;
-import java.awt.*;
-import java.awt.event.*;
+import sun.awt.shell.ShellFolder;
+
 import java.awt.image.BufferedImage;
-import java.beans.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.*;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-
-import sun.awt.shell.ShellFolder;
-import sun.swing.*;
-
-import javax.accessibility.*;
 
 /**
  * Windows L&F implementation of a FileChooser.

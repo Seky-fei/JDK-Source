@@ -25,22 +25,17 @@
 
 package com.sun.corba.se.impl.dynamicany;
 
+import com.sun.corba.se.impl.logging.ORBUtilSystemException;
+import com.sun.corba.se.impl.orbutil.ORBConstants;
+import com.sun.corba.se.spi.logging.CORBALogDomains;
+import com.sun.corba.se.spi.orb.ORB;
 import org.omg.CORBA.Any;
-import org.omg.CORBA.TypeCode;
-import org.omg.CORBA.TCKind;
 import org.omg.CORBA.LocalObject;
 import org.omg.CORBA.ORBPackage.InvalidName;
+import org.omg.CORBA.TypeCode;
 import org.omg.CORBA.portable.OutputStream;
-
-import org.omg.DynamicAny.*;
-import org.omg.DynamicAny.DynAnyPackage.TypeMismatch;
 import org.omg.DynamicAny.DynAnyPackage.InvalidValue;
-
-import com.sun.corba.se.impl.orbutil.ORBConstants ;
-
-import com.sun.corba.se.spi.orb.ORB ;
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
-import com.sun.corba.se.impl.logging.ORBUtilSystemException ;
+import org.omg.DynamicAny.DynAnyPackage.TypeMismatch;
 
 abstract class DynAnyImpl extends org.omg.CORBA.LocalObject implements DynAny
 {

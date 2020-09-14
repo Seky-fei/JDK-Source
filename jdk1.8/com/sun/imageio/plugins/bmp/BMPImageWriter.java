@@ -25,44 +25,22 @@
 
 package com.sun.imageio.plugins.bmp;
 
-import java.awt.Rectangle;
-import java.awt.image.ColorModel;
-import java.awt.image.ComponentSampleModel;
-import java.awt.image.DataBuffer;
-import java.awt.image.DataBufferByte;
-import java.awt.image.DataBufferInt;
-import java.awt.image.DataBufferShort;
-import java.awt.image.DataBufferUShort;
-import java.awt.image.DirectColorModel;
-import java.awt.image.IndexColorModel;
-import java.awt.image.MultiPixelPackedSampleModel;
-import java.awt.image.BandedSampleModel;
-import java.awt.image.Raster;
-import java.awt.image.RenderedImage;
-import java.awt.image.SampleModel;
-import java.awt.image.SinglePixelPackedSampleModel;
-import java.awt.image.BufferedImage;
+import com.sun.imageio.plugins.common.I18N;
+import com.sun.imageio.plugins.common.ImageUtil;
 
-import java.io.IOException;
-import java.io.ByteArrayOutputStream;
-import java.nio.ByteOrder;
-import java.util.Iterator;
-
-import javax.imageio.IIOImage;
-import javax.imageio.ImageIO;
-import javax.imageio.ImageTypeSpecifier;
-import javax.imageio.ImageWriteParam;
-import javax.imageio.ImageWriter;
-import javax.imageio.metadata.IIOMetadata;
-import javax.imageio.spi.ImageWriterSpi;
-import javax.imageio.stream.ImageOutputStream;
+import javax.imageio.*;
 import javax.imageio.event.IIOWriteProgressListener;
 import javax.imageio.event.IIOWriteWarningListener;
-
-
+import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.plugins.bmp.BMPImageWriteParam;
-import com.sun.imageio.plugins.common.ImageUtil;
-import com.sun.imageio.plugins.common.I18N;
+import javax.imageio.spi.ImageWriterSpi;
+import javax.imageio.stream.ImageOutputStream;
+import java.awt.*;
+import java.awt.image.*;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.nio.ByteOrder;
+import java.util.Iterator;
 
 /**
  * The Java Image IO plugin writer for encoding a binary RenderedImage into

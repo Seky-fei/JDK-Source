@@ -25,13 +25,11 @@
 
 package com.sun.corba.se.impl.ior ;
 
-import java.util.Collection ;
-import java.util.List ;
-import java.util.AbstractList ;
-import java.util.ListIterator ;
-import java.util.Iterator ;
+import com.sun.corba.se.spi.ior.MakeImmutable;
 
-import com.sun.corba.se.spi.ior.MakeImmutable ;
+import java.util.AbstractList;
+import java.util.Iterator;
+import java.util.List;
 
 /** Simple class that delegates all List operations to
 * another list.  It also can be frozen, which means that

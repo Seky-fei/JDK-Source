@@ -31,21 +31,17 @@
 
 package com.sun.corba.se.impl.io;
 
-import com.sun.org.omg.CORBA.ValueDefPackage.FullValueDescription;
-import com.sun.org.omg.CORBA.OperationDescription;
+import com.sun.corba.se.impl.util.RepositoryId;
 import com.sun.org.omg.CORBA.AttributeDescription;
-import org.omg.CORBA.ValueMember;
 import com.sun.org.omg.CORBA.Initializer;
-import org.omg.CORBA.IDLType;
+import com.sun.org.omg.CORBA.OperationDescription;
+import com.sun.org.omg.CORBA.ValueDefPackage.FullValueDescription;
 import com.sun.org.omg.CORBA._IDLTypeStub;
 import org.omg.CORBA.ORB;
-import org.omg.CORBA.TypeCodePackage.*;
-import org.omg.CORBA.TypeCode;
 import org.omg.CORBA.TCKind;
-import java.lang.reflect.*;
-import com.sun.corba.se.impl.util.RepositoryId;
-import java.util.*;
-import javax.rmi.CORBA.Util;
+import org.omg.CORBA.TypeCode;
+import org.omg.CORBA.ValueMember;
+
 import javax.rmi.CORBA.ValueHandler;
 
 /**

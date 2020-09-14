@@ -25,26 +25,19 @@
 
 package com.sun.java.swing.plaf.windows;
 
-import java.security.AccessController;
-import sun.security.action.GetBooleanAction;
-
-import java.util.*;
-import java.beans.PropertyChangeListener;
-import java.beans.PropertyChangeEvent;
-import java.awt.*;
-import java.awt.event.*;
-import javax.swing.*;
-
-
-
-import sun.swing.UIClientPropertyKey;
-import com.sun.java.swing.plaf.windows.TMSchema.State;
-import static com.sun.java.swing.plaf.windows.TMSchema.State.*;
 import com.sun.java.swing.plaf.windows.TMSchema.Part;
 import com.sun.java.swing.plaf.windows.TMSchema.Prop;
+import com.sun.java.swing.plaf.windows.TMSchema.State;
 import com.sun.java.swing.plaf.windows.XPStyle.Skin;
-
 import sun.awt.AppContext;
+import sun.security.action.GetBooleanAction;
+import sun.swing.UIClientPropertyKey;
+
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+import java.security.AccessController;
+
+import static com.sun.java.swing.plaf.windows.TMSchema.State.*;
 
 /**
  * A class to help mimic Vista theme animations.  The only kind of

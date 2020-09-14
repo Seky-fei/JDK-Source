@@ -25,9 +25,7 @@
 
 package java.awt.dnd;
 
-import java.awt.*;
 import java.awt.event.InputEvent;
-import java.io.*;
 import java.util.ArrayList;
 import java.util.TooManyListenersException;
 

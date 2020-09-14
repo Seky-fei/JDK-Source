@@ -26,26 +26,22 @@
 package com.sun.corba.se.impl.naming.pcosnaming;
 
 // Import general CORBA classes
-import org.omg.CORBA.SystemException;
-import org.omg.CORBA.ORB;
+import com.sun.corba.se.impl.naming.cosnaming.BindingIteratorImpl;
+import com.sun.corba.se.impl.naming.pcosnaming.InternalBindingValue;
 import org.omg.CORBA.INTERNAL;
-
-// Get org.omg.CosNaming Types
+import org.omg.CORBA.ORB;
+import org.omg.CORBA.SystemException;
 import org.omg.CosNaming.Binding;
 import org.omg.CosNaming.BindingType;
-import org.omg.CosNaming.BindingTypeHolder;
 import org.omg.CosNaming.NameComponent;
 import org.omg.PortableServer.POA;
 
-// Get base implementation
-import com.sun.corba.se.impl.naming.pcosnaming.NamingContextImpl;
-import com.sun.corba.se.impl.naming.pcosnaming.InternalBindingValue;
-
-import com.sun.corba.se.impl.naming.cosnaming.BindingIteratorImpl;
-
-// Get a hash table
-import java.util.Hashtable;
 import java.util.Enumeration;
+import java.util.Hashtable;
+
+// Get org.omg.CosNaming Types
+// Get base implementation
+// Get a hash table
 
 /**
  * Class TransientBindingIterator implements the abstract methods

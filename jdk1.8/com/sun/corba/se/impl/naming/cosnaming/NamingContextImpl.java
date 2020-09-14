@@ -26,41 +26,23 @@
 package com.sun.corba.se.impl.naming.cosnaming;
 
 // Imports for Logging
-import java.util.logging.Logger;
-import java.util.logging.Level;
+import com.sun.corba.se.impl.logging.NamingSystemException;
+import com.sun.corba.se.impl.naming.cosnaming.NamingContextDataStore;
+import com.sun.corba.se.impl.naming.namingutil.INSURLHandler;
 import com.sun.corba.se.impl.orbutil.LogKeywords;
-
-// Import general CORBA classes
-import org.omg.CORBA.Object;
+import com.sun.corba.se.spi.logging.CORBALogDomains;
+import com.sun.corba.se.spi.orb.ORB;
 import org.omg.CORBA.BAD_PARAM;
-import org.omg.CORBA.INTERNAL;
-import org.omg.CORBA.CompletionStatus;
+import org.omg.CORBA.Object;
+import org.omg.CosNaming.NamingContextPackage.NotFound;
 import org.omg.PortableServer.POA;
 import org.omg.PortableServer.Servant;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+// Import general CORBA classes
 // Import org.omg.CosNaming classes
-import org.omg.CosNaming.BindingType;
-import org.omg.CosNaming.BindingTypeHolder;
-import org.omg.CosNaming.BindingListHolder;
-import org.omg.CosNaming.BindingIteratorHolder;
-import org.omg.CosNaming.NameComponent;
-import org.omg.CosNaming.NamingContextHelper;
-import org.omg.CosNaming.NamingContext;
-import org.omg.CosNaming.NamingContextPackage.*;
-import org.omg.CosNaming._NamingContextImplBase;
-import org.omg.CosNaming.NamingContextExtHelper;
-import org.omg.CosNaming.NamingContextExt;
-import org.omg.CosNaming.NamingContextExtPOA;
-import org.omg.CosNaming.NamingContextExtPackage.*;
-import org.omg.CosNaming.NamingContextPackage.NotFound;
-
-import com.sun.corba.se.impl.naming.cosnaming.NamingContextDataStore;
-
-import com.sun.corba.se.impl.naming.namingutil.INSURLHandler;
-import com.sun.corba.se.spi.logging.CORBALogDomains;
-import com.sun.corba.se.impl.logging.NamingSystemException ;
-
-import com.sun.corba.se.spi.orb.ORB;
 
 /**
  * Class NamingContextImpl implements the org.omg.CosNaming::NamingContext

@@ -25,25 +25,16 @@
 
 package com.sun.corba.se.impl.presentation.rmi ;
 
-import java.io.Serializable ;
-import java.io.Externalizable ;
+import com.sun.corba.se.impl.logging.ORBUtilSystemException;
+import com.sun.corba.se.spi.logging.CORBALogDomains;
+import org.omg.CORBA.UserException;
+import org.omg.CORBA.portable.ApplicationException;
+import org.omg.CORBA_2_3.portable.InputStream;
+import org.omg.CORBA_2_3.portable.OutputStream;
 
-import javax.rmi.PortableRemoteObject ;
-import javax.rmi.CORBA.Util ;
-
-import java.rmi.RemoteException ;
-import java.rmi.UnexpectedException ;
-
-import org.omg.CORBA.UserException ;
-
-import org.omg.CORBA_2_3.portable.InputStream ;
-import org.omg.CORBA_2_3.portable.OutputStream ;
-import org.omg.CORBA.portable.ApplicationException ;
-
-import java.lang.reflect.Method ;
-
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
-import com.sun.corba.se.impl.logging.ORBUtilSystemException ;
+import java.lang.reflect.Method;
+import java.rmi.RemoteException;
+import java.rmi.UnexpectedException;
 
 public class ExceptionHandlerImpl implements ExceptionHandler
 {

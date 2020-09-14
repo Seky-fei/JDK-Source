@@ -25,15 +25,11 @@
 
 package com.sun.corba.se.spi.presentation.rmi ;
 
-import java.util.Map ;
+import com.sun.corba.se.spi.orbutil.proxy.InvocationHandlerFactory;
 
-import java.lang.reflect.Method ;
-import java.lang.reflect.InvocationHandler ;
-
-import javax.rmi.CORBA.Tie ;
-
-import com.sun.corba.se.spi.orb.ORB ;
-import com.sun.corba.se.spi.orbutil.proxy.InvocationHandlerFactory ;
+import javax.rmi.CORBA.Tie;
+import java.lang.reflect.Method;
+import java.util.Map;
 
 
 /** Provides access to RMI-IIOP stubs and ties.

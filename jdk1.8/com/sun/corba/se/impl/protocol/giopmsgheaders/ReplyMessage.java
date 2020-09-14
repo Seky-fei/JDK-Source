@@ -25,9 +25,8 @@
 
 package com.sun.corba.se.impl.protocol.giopmsgheaders;
 
-import com.sun.corba.se.spi.servicecontext.ServiceContexts;
-import org.omg.CORBA.SystemException;
 import com.sun.corba.se.spi.ior.IOR;
+import com.sun.corba.se.spi.servicecontext.ServiceContexts;
 
 /**
  * This interface captures the ReplyMessage contract.

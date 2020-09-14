@@ -25,16 +25,10 @@
 
 package com.sun.corba.se.impl.ior.iiop;
 
-import org.omg.CORBA.BAD_PARAM ;
-
-import org.omg.CORBA_2_3.portable.InputStream ;
-import org.omg.CORBA_2_3.portable.OutputStream ;
-
-import com.sun.corba.se.spi.orb.ORB ;
-
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
-
-import com.sun.corba.se.impl.logging.IORSystemException ;
+import com.sun.corba.se.impl.logging.IORSystemException;
+import com.sun.corba.se.spi.logging.CORBALogDomains;
+import com.sun.corba.se.spi.orb.ORB;
+import org.omg.CORBA_2_3.portable.InputStream;
 
 /**
  * @author

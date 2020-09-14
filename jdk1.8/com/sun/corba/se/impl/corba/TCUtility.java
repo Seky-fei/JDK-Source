@@ -31,30 +31,21 @@
 
 package com.sun.corba.se.impl.corba;
 
-import org.omg.CORBA.SystemException;
-import org.omg.CORBA.CompletionStatus;
-import org.omg.CORBA.UserException;
-import org.omg.CORBA.TCKind;
-import org.omg.CORBA.UNKNOWN;
-import org.omg.CORBA.INTERNAL;
-import org.omg.CORBA.NO_IMPLEMENT;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.TypeCode;
-import org.omg.CORBA.Principal;
-import org.omg.CORBA_2_3.portable.InputStream;
-import org.omg.CORBA_2_3.portable.OutputStream;
-import org.omg.CORBA.portable.Streamable;
-import org.omg.CORBA.TypeCodePackage.BadKind;
-import java.util.Hashtable;
-import java.util.Enumeration;
-import java.util.NoSuchElementException;
-
 import com.sun.corba.se.impl.encoding.CDRInputStream;
 import com.sun.corba.se.impl.encoding.CDROutputStream;
+import com.sun.corba.se.impl.logging.ORBUtilSystemException;
+import com.sun.corba.se.spi.logging.CORBALogDomains;
+import org.omg.CORBA.Any;
+import org.omg.CORBA.Principal;
+import org.omg.CORBA.TCKind;
+import org.omg.CORBA.TypeCode;
+import org.omg.CORBA.TypeCodePackage.BadKind;
+import org.omg.CORBA.portable.Streamable;
+import org.omg.CORBA_2_3.portable.InputStream;
+import org.omg.CORBA_2_3.portable.OutputStream;
+
 import java.io.Serializable;
 import java.math.BigDecimal;
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
-import com.sun.corba.se.impl.logging.ORBUtilSystemException ;
 
 /**
  *  Static functions for TypeCode interpretation.

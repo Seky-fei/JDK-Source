@@ -26,12 +26,6 @@
 package com.sun.java.swing.plaf.motif;
 
 
-import javax.swing.*;
-import javax.swing.event.*;
-import java.awt.*;
-import java.awt.event.*;
-
-import javax.swing.plaf.*;
 import javax.swing.plaf.basic.BasicMenuItemUI;
 
 

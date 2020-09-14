@@ -25,10 +25,10 @@
 
 package com.sun.imageio.plugins.gif;
 
-import java.util.Arrays;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.metadata.IIOMetadataFormat;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
+import java.util.Arrays;
 
 public class GIFImageMetadataFormat extends IIOMetadataFormatImpl {
 

@@ -34,7 +34,6 @@ package com.sun.corba.se.impl.util;
 
 import java.util.Dictionary;
 import java.util.Enumeration;
-import java.util.NoSuchElementException;
 
 /**
  * IdentityHashtable is a modified copy of the 1.1.6 Hashtable class which

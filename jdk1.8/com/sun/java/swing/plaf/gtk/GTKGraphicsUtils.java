@@ -24,11 +24,7 @@
  */
 package com.sun.java.swing.plaf.gtk;
 
-import javax.swing.*;
-import javax.swing.plaf.synth.*;
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Rectangle;
+import java.awt.*;
 
 /**
  * @author Joshua Outwater

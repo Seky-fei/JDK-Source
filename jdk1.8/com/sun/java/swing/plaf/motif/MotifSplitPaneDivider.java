@@ -25,12 +25,9 @@
 
 package com.sun.java.swing.plaf.motif;
 
-import java.awt.*;
-import java.awt.event.*;
-import javax.swing.JSplitPane;
-import javax.swing.UIManager;
-import javax.swing.plaf.basic.BasicSplitPaneUI;
+import javax.swing.*;
 import javax.swing.plaf.basic.BasicSplitPaneDivider;
+import javax.swing.plaf.basic.BasicSplitPaneUI;
 
 
 /**

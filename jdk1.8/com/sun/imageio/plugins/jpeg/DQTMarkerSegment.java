@@ -25,20 +25,19 @@
 
 package com.sun.imageio.plugins.jpeg;
 
+import org.w3c.dom.NamedNodeMap;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
 import javax.imageio.IIOException;
 import javax.imageio.metadata.IIOInvalidTreeException;
 import javax.imageio.metadata.IIOMetadataNode;
-import javax.imageio.stream.ImageOutputStream;
 import javax.imageio.plugins.jpeg.JPEGQTable;
-
+import javax.imageio.stream.ImageOutputStream;
 import java.io.IOException;
-import java.util.List;
 import java.util.ArrayList;
 import java.util.Iterator;
-
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.w3c.dom.NamedNodeMap;
+import java.util.List;
 
 /**
  * A DQT (Define Quantization Table) marker segment.

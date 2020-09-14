@@ -25,14 +25,12 @@
 
 package com.sun.imageio.plugins.jpeg;
 
-import javax.imageio.metadata.IIOMetadataFormat;
-import javax.imageio.metadata.IIOMetadataFormatImpl;
 import javax.imageio.ImageTypeSpecifier;
-import javax.imageio.plugins.jpeg.JPEGQTable;
+import javax.imageio.metadata.IIOMetadataFormatImpl;
 import javax.imageio.plugins.jpeg.JPEGHuffmanTable;
-
-import java.util.List;
+import javax.imageio.plugins.jpeg.JPEGQTable;
 import java.util.ArrayList;
+import java.util.List;
 
 abstract class JPEGMetadataFormat extends IIOMetadataFormatImpl {
     // 2-byte length reduces max to 65533

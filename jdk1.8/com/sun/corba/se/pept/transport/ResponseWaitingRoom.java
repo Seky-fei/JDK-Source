@@ -25,8 +25,8 @@
 
 package com.sun.corba.se.pept.transport;
 
-import com.sun.corba.se.pept.protocol.MessageMediator;
 import com.sun.corba.se.pept.encoding.InputObject;
+import com.sun.corba.se.pept.protocol.MessageMediator;
 
 /**
  * @author Harold Carr

@@ -25,21 +25,11 @@
 
 package com.sun.java.swing.plaf.gtk;
 
-import java.awt.*;
-import java.awt.image.*;
-import java.util.HashMap;
-import javax.swing.*;
-import javax.swing.plaf.synth.*;
-
-import com.sun.java.swing.plaf.gtk.GTKConstants.ArrowType;
-import com.sun.java.swing.plaf.gtk.GTKConstants.ExpanderStyle;
-import com.sun.java.swing.plaf.gtk.GTKConstants.Orientation;
-import com.sun.java.swing.plaf.gtk.GTKConstants.PositionType;
-import com.sun.java.swing.plaf.gtk.GTKConstants.ShadowType;
-import com.sun.java.swing.plaf.gtk.GTKConstants.TextDirection;
-
+import com.sun.java.swing.plaf.gtk.GTKConstants.*;
 import sun.awt.image.SunWritableRaster;
 import sun.swing.ImageCache;
+
+import java.util.HashMap;
 
 /**
  * GTKEngine delegates all painting job to native GTK libraries.

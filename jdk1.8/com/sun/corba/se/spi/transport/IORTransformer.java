@@ -25,9 +25,9 @@
 
 package com.sun.corba.se.spi.transport ;
 
-import com.sun.corba.se.spi.ior.IOR ;
-import com.sun.corba.se.spi.encoding.CorbaInputObject ;
-import com.sun.corba.se.spi.encoding.CorbaOutputObject ;
+import com.sun.corba.se.spi.encoding.CorbaInputObject;
+import com.sun.corba.se.spi.encoding.CorbaOutputObject;
+import com.sun.corba.se.spi.ior.IOR;
 
 /** Interface that provides operations to transorm an IOR
  * between its programmatic representation and a representation

@@ -25,7 +25,7 @@
 
 package com.sun.corba.se.spi.resolver ;
 
-import com.sun.corba.se.spi.orbutil.closure.Closure ;
+import com.sun.corba.se.spi.orbutil.closure.Closure;
 
 /** A LocalResolver is a Resolver that allows registration of (name, CORBA object)
  * bindings.

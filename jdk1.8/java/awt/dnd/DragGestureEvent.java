@@ -26,7 +26,6 @@
 
 package java.awt.dnd;
 
-import java.awt.*;
 import java.awt.datatransfer.Transferable;
 import java.awt.event.InputEvent;
 import java.io.IOException;

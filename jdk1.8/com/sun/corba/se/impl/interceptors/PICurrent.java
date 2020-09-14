@@ -25,15 +25,12 @@
 
 package com.sun.corba.se.impl.interceptors;
 
+import com.sun.corba.se.impl.logging.OMGSystemException;
+import com.sun.corba.se.spi.logging.CORBALogDomains;
 import com.sun.corba.se.spi.orb.ORB;
+import org.omg.CORBA.Any;
 import org.omg.PortableInterceptor.Current;
 import org.omg.PortableInterceptor.InvalidSlot;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.BAD_INV_ORDER;
-import org.omg.CORBA.CompletionStatus;
-
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
-import com.sun.corba.se.impl.logging.OMGSystemException ;
 
 /**
  * PICurrent is the implementation of Current as specified in the Portable

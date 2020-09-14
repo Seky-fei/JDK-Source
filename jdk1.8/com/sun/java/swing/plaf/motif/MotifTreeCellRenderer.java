@@ -25,15 +25,6 @@
 
 package com.sun.java.swing.plaf.motif;
 
-import javax.swing.*;
-import javax.swing.plaf.*;
-import javax.swing.tree.*;
-import java.awt.*;
-import java.awt.event.*;
-import java.beans.*;
-import java.io.*;
-import java.util.*;
-
 /**
  * Motif rendered to display a tree cell.
  * <p>

@@ -25,9 +25,8 @@
 
 package com.sun.corba.se.spi.protocol ;
 
-import com.sun.corba.se.spi.transport.CorbaContactInfoList ;
-
-import com.sun.corba.se.spi.protocol.CorbaClientDelegate ;
+import com.sun.corba.se.spi.protocol.CorbaClientDelegate;
+import com.sun.corba.se.spi.transport.CorbaContactInfoList;
 
 /** Interface used to create a ClientDelegate from a ContactInfoList.
  */

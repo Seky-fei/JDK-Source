@@ -25,14 +25,14 @@
 
 package com.sun.corba.se.impl.ior;
 
+import com.sun.corba.se.impl.orbutil.ORBUtility;
+import com.sun.corba.se.spi.ior.IORTypeCheckRegistry;
+import com.sun.corba.se.spi.orb.ORB;
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
-
-import com.sun.corba.se.impl.orbutil.ORBUtility;
-import com.sun.corba.se.spi.ior.IORTypeCheckRegistry;
-import com.sun.corba.se.spi.orb.ORB;
 
 public class IORTypeCheckRegistryImpl implements IORTypeCheckRegistry {
 

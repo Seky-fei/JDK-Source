@@ -25,29 +25,10 @@
 
 package com.sun.corba.se.impl.oa.poa ;
 
-import org.omg.CORBA.INTERNAL ;
-
-import com.sun.corba.se.spi.orb.ORB ;
-
-import com.sun.corba.se.spi.orbutil.fsm.Action ;
-import com.sun.corba.se.spi.orbutil.fsm.ActionBase ;
-import com.sun.corba.se.spi.orbutil.fsm.Guard ;
-import com.sun.corba.se.spi.orbutil.fsm.GuardBase ;
-import com.sun.corba.se.spi.orbutil.fsm.State ;
-import com.sun.corba.se.spi.orbutil.fsm.StateImpl ;
-import com.sun.corba.se.spi.orbutil.fsm.Input ;
-import com.sun.corba.se.spi.orbutil.fsm.InputImpl ;
-import com.sun.corba.se.spi.orbutil.fsm.FSM ;
-import com.sun.corba.se.spi.orbutil.fsm.FSMImpl ;
-import com.sun.corba.se.spi.orbutil.fsm.StateEngine ;
-import com.sun.corba.se.spi.orbutil.fsm.StateEngineFactory ;
-
-import com.sun.corba.se.impl.orbutil.concurrent.Mutex ;
-import com.sun.corba.se.impl.orbutil.concurrent.CondVar ;
-
-import org.omg.CORBA.SystemException ;
-
-import org.omg.PortableServer.POAPackage.ObjectAlreadyActive ;
+import com.sun.corba.se.impl.orbutil.concurrent.CondVar;
+import com.sun.corba.se.spi.orb.ORB;
+import com.sun.corba.se.spi.orbutil.fsm.*;
+import org.omg.PortableServer.POAPackage.ObjectAlreadyActive;
 
 /** AOMEntry represents a Servant or potential Servant in the ActiveObjectMap.
 * It may be in several states to allow for long incarnate or etherealize operations.

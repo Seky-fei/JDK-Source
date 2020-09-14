@@ -25,20 +25,12 @@
 
 package com.sun.java.swing.plaf.motif;
 
-import java.awt.*;
-import java.awt.event.*;
-import javax.swing.*;
-import javax.swing.border.*;
-import javax.swing.event.InternalFrameEvent;
-import javax.swing.plaf.basic.*;
-import java.util.EventListener;
-import java.beans.PropertyChangeListener;
-import java.beans.PropertyChangeEvent;
-import java.beans.VetoableChangeListener;
-import java.beans.PropertyVetoException;
-
 import sun.awt.AWTAccessor;
 import sun.awt.AWTAccessor.MouseEventAccessor;
+
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+import java.beans.PropertyVetoException;
 
 /**
  * Class that manages a Motif title bar

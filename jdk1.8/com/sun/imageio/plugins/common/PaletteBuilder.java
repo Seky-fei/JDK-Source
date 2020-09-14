@@ -25,15 +25,9 @@
 
 package com.sun.imageio.plugins.common;
 
-import java.awt.Transparency;
-import java.awt.image.BufferedImage;
-import java.awt.image.RenderedImage;
-import java.awt.image.ColorModel;
-import java.awt.image.IndexColorModel;
-import java.awt.image.Raster;
-import java.awt.image.WritableRaster;
-import java.awt.Color;
 import javax.imageio.ImageTypeSpecifier;
+import java.awt.*;
+import java.awt.image.*;
 
 
 /**

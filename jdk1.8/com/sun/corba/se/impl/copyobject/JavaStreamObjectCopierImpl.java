@@ -25,24 +25,11 @@
 
 package com.sun.corba.se.impl.copyobject ;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
-import java.io.Serializable;
-import java.rmi.Remote;
-import java.rmi.MarshalException;
-
-import java.io.InputStream ;
-import java.io.OutputStream ;
-import java.io.ByteArrayInputStream ;
-import java.io.ByteArrayOutputStream ;
-import java.io.ObjectInputStream ;
-import java.io.ObjectOutputStream ;
-
-import org.omg.CORBA.ORB ;
-
-import com.sun.corba.se.spi.copyobject.ObjectCopier ;
 import com.sun.corba.se.impl.util.Utility;
+import com.sun.corba.se.spi.copyobject.ObjectCopier;
+import org.omg.CORBA.ORB;
+
+import java.rmi.Remote;
 
 public class JavaStreamObjectCopierImpl implements ObjectCopier {
 

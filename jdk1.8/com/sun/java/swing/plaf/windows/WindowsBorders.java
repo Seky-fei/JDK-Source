@@ -25,15 +25,7 @@
 
 package com.sun.java.swing.plaf.windows;
 
-import javax.swing.*;
-import javax.swing.border.*;
-import javax.swing.plaf.*;
-import javax.swing.plaf.basic.*;
-
-import java.awt.Component;
-import java.awt.Insets;
-import java.awt.Color;
-import java.awt.Graphics;
+import java.awt.*;
 
 import static com.sun.java.swing.plaf.windows.TMSchema.*;
 import static com.sun.java.swing.plaf.windows.XPStyle.Skin;

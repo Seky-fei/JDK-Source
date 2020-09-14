@@ -25,7 +25,6 @@
 
 package com.sun.corba.se.impl.activation;
 
-import java.util.*;
 import com.sun.corba.se.impl.orbutil.ORBConstants;
 
 /** ProcessMonitorThread is started when ServerManager is instantiated. The

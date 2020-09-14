@@ -25,19 +25,15 @@
 
 package com.sun.corba.se.impl.presentation.rmi;
 
-import javax.rmi.CORBA.Util;
-import javax.rmi.CORBA.Tie ;
-
-import org.omg.CORBA.CompletionStatus;
-
-import com.sun.corba.se.spi.presentation.rmi.PresentationManager;
-
+import com.sun.corba.se.impl.logging.ORBUtilSystemException;
 import com.sun.corba.se.impl.util.PackagePrefixChecker;
 import com.sun.corba.se.impl.util.Utility;
+import com.sun.corba.se.spi.logging.CORBALogDomains;
+import com.sun.corba.se.spi.presentation.rmi.PresentationManager;
+import org.omg.CORBA.CompletionStatus;
 
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
-
-import com.sun.corba.se.impl.logging.ORBUtilSystemException ;
+import javax.rmi.CORBA.Tie;
+import javax.rmi.CORBA.Util;
 
 public class StubFactoryFactoryStaticImpl extends
     StubFactoryFactoryBase

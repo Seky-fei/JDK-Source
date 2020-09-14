@@ -25,11 +25,9 @@
 
 package com.sun.java.swing.plaf.gtk;
 
-import java.awt.Font;
-import java.util.*;
-import javax.swing.*;
-import javax.swing.plaf.synth.*;
 import com.sun.java.swing.plaf.gtk.GTKEngine.WidgetType;
+
+import java.awt.*;
 
 /**
  *

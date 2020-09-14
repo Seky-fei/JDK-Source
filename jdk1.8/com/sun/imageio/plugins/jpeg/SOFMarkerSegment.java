@@ -26,15 +26,14 @@
 package com.sun.imageio.plugins.jpeg;
 
 //import javax.imageio.IIOException;
+import org.w3c.dom.NamedNodeMap;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
 import javax.imageio.metadata.IIOInvalidTreeException;
 import javax.imageio.metadata.IIOMetadataNode;
 import javax.imageio.stream.ImageOutputStream;
-
 import java.io.IOException;
-
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.w3c.dom.NamedNodeMap;
 
 /**
  * An SOF (Start Of Frame)  marker segment.

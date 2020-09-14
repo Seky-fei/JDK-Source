@@ -25,9 +25,9 @@
 
 package com.sun.java.swing.plaf.gtk;
 
-import java.awt.Color;
-import java.util.Arrays;
 import javax.swing.plaf.ColorUIResource;
+import java.awt.*;
+import java.util.Arrays;
 
 /**
  * @author  Shannon Hickey

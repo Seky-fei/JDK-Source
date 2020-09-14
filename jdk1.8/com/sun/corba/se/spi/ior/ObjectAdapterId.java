@@ -25,7 +25,7 @@
 
 package com.sun.corba.se.spi.ior ;
 
-import java.util.Iterator ;
+import java.util.Iterator;
 
 /** This is the object adapter ID for an object adapter.
 * Typically this is the path of strings starting from the

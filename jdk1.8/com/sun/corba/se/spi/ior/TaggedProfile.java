@@ -25,8 +25,6 @@
 
 package com.sun.corba.se.spi.ior;
 
-import com.sun.corba.se.spi.orb.ORB ;
-
 /** TaggedProfile represents a tagged profile in an IOR.
  * A profile contains all of the information necessary for an invocation.
  * It contains one or more endpoints that may be used for an invocation.

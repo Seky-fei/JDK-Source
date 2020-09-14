@@ -25,26 +25,14 @@
 
 package com.sun.java.swing.plaf.motif;
 
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Insets;
-import java.awt.event.KeyEvent;
-import java.awt.event.InputEvent;
-import java.util.*;
-
-import javax.swing.*;
-import javax.swing.plaf.*;
-import javax.swing.border.*;
-import javax.swing.text.JTextComponent;
-import javax.swing.text.DefaultEditorKit;
-
-import javax.swing.plaf.basic.BasicLookAndFeel;
-import javax.swing.plaf.basic.BasicBorders;
-import javax.swing.plaf.basic.BasicComboBoxRenderer;
-import javax.swing.plaf.basic.BasicComboBoxEditor;
-
-import sun.swing.SwingUtilities2;
 import sun.awt.OSInfo;
+import sun.swing.SwingUtilities2;
+
+import javax.swing.plaf.basic.BasicBorders;
+import javax.swing.plaf.basic.BasicLookAndFeel;
+import javax.swing.text.DefaultEditorKit;
+import java.awt.*;
+import java.awt.event.KeyEvent;
 
 /**
  * Implements the Motif Look and Feel.

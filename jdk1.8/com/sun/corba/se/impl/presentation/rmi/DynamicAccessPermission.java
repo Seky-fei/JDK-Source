@@ -25,8 +25,6 @@
 
 package com.sun.corba.se.impl.presentation.rmi;
 
-import java.security.*;
-
 /**
  * This class controls the use of dynamic proxies.
  * A DynamicAccessPermission contains a name (also referred to as a "target name") but

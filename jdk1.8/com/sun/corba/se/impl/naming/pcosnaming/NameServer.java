@@ -25,15 +25,15 @@
 
 package com.sun.corba.se.impl.naming.pcosnaming;
 
-import java.io.File;
-import java.util.Properties;
-
-import com.sun.corba.se.impl.orbutil.ORBConstants;
 import com.sun.corba.se.impl.orbutil.CorbaResourceUtil;
-import com.sun.corba.se.spi.orb.ORB;
+import com.sun.corba.se.impl.orbutil.ORBConstants;
 import com.sun.corba.se.spi.activation.InitialNameService;
 import com.sun.corba.se.spi.activation.InitialNameServiceHelper;
+import com.sun.corba.se.spi.orb.ORB;
 import org.omg.CosNaming.NamingContext;
+
+import java.io.File;
+import java.util.Properties;
 /**
  * Class NameServer is a standalone application which
  * implements a persistent and a transient name service.

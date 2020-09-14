@@ -25,10 +25,7 @@
 
 package com.sun.java.swing.plaf.windows;
 
-import javax.swing.*;
-import javax.swing.plaf.basic.*;
 import javax.swing.plaf.ComponentUI;
-import java.awt.event.*;
 
 /**
  * Windows desktop pane.

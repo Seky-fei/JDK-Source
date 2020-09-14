@@ -25,19 +25,11 @@
 
 package com.sun.java.swing.plaf.motif;
 
-import sun.swing.SwingUtilities2;
-import java.awt.*;
-import java.awt.event.*;
-import javax.swing.*;
-import javax.swing.border.*;
-import javax.swing.plaf.*;
-import javax.swing.plaf.basic.*;
-import java.beans.*;
-import java.util.EventListener;
-import java.io.Serializable;
-
 import sun.awt.AWTAccessor;
 import sun.awt.AWTAccessor.MouseEventAccessor;
+import sun.swing.SwingUtilities2;
+
+import java.util.EventListener;
 
 /**
  * Motif rendition of the component.

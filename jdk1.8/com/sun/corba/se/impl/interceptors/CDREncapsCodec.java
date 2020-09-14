@@ -25,25 +25,21 @@
 
 package com.sun.corba.se.impl.interceptors;
 
-import org.omg.CORBA.Any;
-import org.omg.CORBA.ORB;
-import org.omg.CORBA.TypeCode;
-import org.omg.CORBA.LocalObject;
-
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
-import com.sun.corba.se.spi.logging.CORBALogDomains;
-
-import sun.corba.EncapsInputStreamFactory;
-
 import com.sun.corba.se.impl.corba.AnyImpl;
 import com.sun.corba.se.impl.encoding.EncapsInputStream;
 import com.sun.corba.se.impl.encoding.EncapsOutputStream;
 import com.sun.corba.se.impl.logging.ORBUtilSystemException;
-
+import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
+import com.sun.corba.se.spi.logging.CORBALogDomains;
+import org.omg.CORBA.Any;
+import org.omg.CORBA.LocalObject;
+import org.omg.CORBA.ORB;
+import org.omg.CORBA.TypeCode;
 import org.omg.IOP.Codec;
 import org.omg.IOP.CodecPackage.FormatMismatch;
 import org.omg.IOP.CodecPackage.InvalidTypeForEncoding;
 import org.omg.IOP.CodecPackage.TypeMismatch;
+import sun.corba.EncapsInputStreamFactory;
 
 /**
  * CDREncapsCodec is an implementation of Codec, as described

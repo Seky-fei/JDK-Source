@@ -24,13 +24,12 @@
  */
 package com.sun.corba.se.impl.encoding;
 
-import java.io.IOException;
-
-import org.omg.CORBA.TypeCode;
-import org.omg.CORBA.Principal;
 import org.omg.CORBA.Any;
-
+import org.omg.CORBA.Principal;
+import org.omg.CORBA.TypeCode;
 import org.omg.CORBA.portable.InputStream;
+
+import java.io.IOException;
 
 public interface MarshalOutputStream {
 

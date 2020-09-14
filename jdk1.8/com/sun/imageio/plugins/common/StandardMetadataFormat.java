@@ -25,10 +25,10 @@
 
 package com.sun.imageio.plugins.common;
 
-import java.util.ArrayList;
-import java.util.List;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
+import java.util.ArrayList;
+import java.util.List;
 
 public class StandardMetadataFormat extends IIOMetadataFormatImpl {
 

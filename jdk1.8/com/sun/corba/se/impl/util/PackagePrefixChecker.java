@@ -24,8 +24,6 @@
  */
 package com.sun.corba.se.impl.util;
 
-import java.io.File;
-
 /**
  * PackagePrefixChecker provides static utility methods for getting package prefixes.
  * @author M. Mortazavi

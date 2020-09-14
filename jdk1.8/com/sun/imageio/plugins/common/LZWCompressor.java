@@ -25,9 +25,9 @@
 
 package com.sun.imageio.plugins.common;
 
+import javax.imageio.stream.ImageOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;
-import javax.imageio.stream.ImageOutputStream;
 
 /*
  * Modified from original LZWCompressor to change interface to passing a

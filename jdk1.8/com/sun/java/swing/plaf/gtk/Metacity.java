@@ -24,27 +24,12 @@
  */
 package com.sun.java.swing.plaf.gtk;
 
-import sun.swing.SwingUtilities2;
 import com.sun.java.swing.plaf.gtk.GTKConstants.ArrowType;
 import com.sun.java.swing.plaf.gtk.GTKConstants.ShadowType;
+import org.xml.sax.SAXException;
+import sun.swing.SwingUtilities2;
 
 import javax.swing.plaf.ColorUIResource;
-import javax.swing.plaf.synth.*;
-
-import java.awt.*;
-import java.awt.geom.*;
-import java.awt.image.*;
-import java.io.*;
-import java.net.*;
-import java.security.*;
-import java.util.*;
-
-import javax.swing.*;
-import javax.swing.border.*;
-
-import javax.xml.parsers.*;
-import org.xml.sax.SAXException;
-import org.w3c.dom.*;
 
 /**
  */

@@ -25,8 +25,8 @@
 
 package com.sun.corba.se.impl.ior ;
 
-import java.util.Iterator ;
-import java.util.Arrays ;
+import java.util.Arrays;
+import java.util.Iterator;
 
 public class ObjectAdapterIdArray extends ObjectAdapterIdBase {
     private final String[] objectAdapterId ;

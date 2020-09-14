@@ -25,10 +25,10 @@
 
 package com.sun.corba.se.impl.resolver ;
 
-import java.util.Set ;
-import java.util.HashSet ;
+import com.sun.corba.se.spi.resolver.Resolver;
 
-import com.sun.corba.se.spi.resolver.Resolver ;
+import java.util.HashSet;
+import java.util.Set;
 
 public class CompositeResolverImpl implements Resolver {
     private Resolver first ;

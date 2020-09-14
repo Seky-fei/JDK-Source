@@ -25,7 +25,7 @@
 
 package com.sun.corba.se.spi.protocol;
 
-import com.sun.corba.se.spi.resolver.Resolver ;
+import com.sun.corba.se.spi.resolver.Resolver;
 
 /** InitialServerRequestDispatcher is a specialized version of a ServerRequestDispatcher
  * that provides an initialization method.  This delegate is used

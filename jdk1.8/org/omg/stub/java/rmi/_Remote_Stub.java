@@ -34,8 +34,8 @@
 
 package org.omg.stub.java.rmi;
 
-import java.rmi.Remote;
 import javax.rmi.CORBA.Stub;
+import java.rmi.Remote;
 
 /**
  * This class provides the Stub for the Remote Type.  The class is generated

@@ -25,12 +25,12 @@
 
 package com.sun.imageio.spi;
 
+import javax.imageio.spi.ImageOutputStreamSpi;
+import javax.imageio.stream.FileImageOutputStream;
+import javax.imageio.stream.ImageOutputStream;
 import java.io.File;
 import java.io.RandomAccessFile;
 import java.util.Locale;
-import javax.imageio.spi.ImageOutputStreamSpi;
-import javax.imageio.stream.ImageOutputStream;
-import javax.imageio.stream.FileImageOutputStream;
 
 public class RAFImageOutputStreamSpi extends ImageOutputStreamSpi {
 

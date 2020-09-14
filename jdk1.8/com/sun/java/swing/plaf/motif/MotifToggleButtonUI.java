@@ -27,14 +27,6 @@ package com.sun.java.swing.plaf.motif;
 
 import sun.awt.AppContext;
 
-import java.awt.*;
-import java.awt.event.*;
-
-import javax.swing.*;
-import javax.swing.border.*;
-import javax.swing.plaf.*;
-import javax.swing.plaf.basic.*;
-
 
 /**
  * BasicToggleButton implementation

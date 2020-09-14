@@ -25,14 +25,11 @@
 
 package com.sun.corba.se.spi.orbutil.fsm ;
 
-import java.util.Set ;
-import java.util.HashSet ;
-
-import com.sun.corba.se.spi.orbutil.fsm.Input ;
-import com.sun.corba.se.spi.orbutil.fsm.StateEngine ;
-import com.sun.corba.se.impl.orbutil.fsm.StateEngineImpl ;
-import com.sun.corba.se.impl.orbutil.ORBUtility ;
-import com.sun.corba.se.spi.orbutil.fsm.FSM ;
+import com.sun.corba.se.impl.orbutil.ORBUtility;
+import com.sun.corba.se.impl.orbutil.fsm.StateEngineImpl;
+import com.sun.corba.se.spi.orbutil.fsm.FSM;
+import com.sun.corba.se.spi.orbutil.fsm.Input;
+import com.sun.corba.se.spi.orbutil.fsm.StateEngine;
 
 /**
  * This is the main class that represents an instance of a state machine

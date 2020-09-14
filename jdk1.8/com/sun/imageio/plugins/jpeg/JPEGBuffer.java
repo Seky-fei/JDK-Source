@@ -25,9 +25,8 @@
 
 package com.sun.imageio.plugins.jpeg;
 
-import javax.imageio.stream.ImageInputStream;
 import javax.imageio.IIOException;
-
+import javax.imageio.stream.ImageInputStream;
 import java.io.IOException;
 
 /**

@@ -25,28 +25,20 @@
 
 package com.sun.corba.se.impl.presentation.rmi ;
 
-import java.lang.reflect.Field ;
-
-import java.util.Hashtable;
-
-import javax.naming.*;
-import javax.naming.spi.StateFactory;
-
-import java.security.AccessController ;
-import java.security.PrivilegedAction ;
-
-import javax.rmi.PortableRemoteObject ;
-
 import com.sun.corba.se.spi.orb.ORB;
+import com.sun.corba.se.spi.presentation.rmi.StubAdapter;
+import com.sun.jndi.cosnaming.CNCtx;
 
+import javax.naming.spi.StateFactory;
+import javax.rmi.PortableRemoteObject;
+import java.lang.reflect.Field;
 import java.rmi.Remote;
-import java.rmi.server.ExportException;
+import java.security.AccessController;
+import java.security.PrivilegedAction;
+import java.util.Hashtable;
 
 // XXX This creates a dependendcy on the implementation
 // of the CosNaming service provider.
-import com.sun.jndi.cosnaming.CNCtx ;
-
-import com.sun.corba.se.spi.presentation.rmi.StubAdapter ;
 
 /**
   * StateFactory that turns java.rmi.Remote objects to org.omg.CORBA.Object.

@@ -25,14 +25,10 @@
 
 package com.sun.java.swing.plaf.motif;
 
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Rectangle;
-
-import javax.swing.JComponent;
-import javax.swing.JSlider;
+import javax.swing.*;
 import javax.swing.plaf.ComponentUI;
 import javax.swing.plaf.basic.BasicSliderUI;
+import java.awt.*;
 
 import static sun.swing.SwingUtilities2.drawHLine;
 import static sun.swing.SwingUtilities2.drawVLine;

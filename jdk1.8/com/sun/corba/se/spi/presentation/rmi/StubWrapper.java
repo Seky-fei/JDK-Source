@@ -25,21 +25,11 @@
 
 package com.sun.corba.se.spi.presentation.rmi ;
 
-import java.rmi.RemoteException ;
+import org.omg.CORBA.*;
+import org.omg.CORBA.portable.Delegate;
+import org.omg.CORBA.portable.OutputStream;
 
-import org.omg.CORBA.portable.Delegate ;
-import org.omg.CORBA.ORB ;
-import org.omg.CORBA.Request ;
-import org.omg.CORBA.Context ;
-import org.omg.CORBA.NamedValue ;
-import org.omg.CORBA.NVList ;
-import org.omg.CORBA.ContextList ;
-import org.omg.CORBA.ExceptionList ;
-import org.omg.CORBA.Policy ;
-import org.omg.CORBA.DomainManager ;
-import org.omg.CORBA.SetOverrideType ;
-
-import org.omg.CORBA.portable.OutputStream ;
+import java.rmi.RemoteException;
 
 /** Wrapper that can take any stub (object x such that StubAdapter.isStub(x))
  * and treat it as a DynamicStub.

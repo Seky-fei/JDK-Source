@@ -25,10 +25,9 @@
 
 package com.sun.corba.se.impl.resolver ;
 
-import com.sun.corba.se.spi.orbutil.closure.Closure ;
-
-import com.sun.corba.se.spi.resolver.Resolver ;
-import com.sun.corba.se.spi.resolver.LocalResolver ;
+import com.sun.corba.se.spi.orbutil.closure.Closure;
+import com.sun.corba.se.spi.resolver.LocalResolver;
+import com.sun.corba.se.spi.resolver.Resolver;
 
 public class SplitLocalResolverImpl implements LocalResolver
 {

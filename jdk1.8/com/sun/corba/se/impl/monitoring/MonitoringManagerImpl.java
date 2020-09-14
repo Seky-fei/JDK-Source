@@ -25,11 +25,7 @@
 
 package com.sun.corba.se.impl.monitoring;
 
-import com.sun.corba.se.spi.monitoring.MonitoringManager;
-import com.sun.corba.se.spi.monitoring.MonitoringManagerFactory;
-import com.sun.corba.se.spi.monitoring.MonitoredObject;
-import com.sun.corba.se.spi.monitoring.MonitoredObjectFactory;
-import com.sun.corba.se.spi.monitoring.MonitoringFactories;
+import com.sun.corba.se.spi.monitoring.*;
 
 public class MonitoringManagerImpl implements MonitoringManager {
     private final MonitoredObject rootMonitoredObject;

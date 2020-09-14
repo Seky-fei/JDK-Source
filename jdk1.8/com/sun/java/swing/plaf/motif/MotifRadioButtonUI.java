@@ -27,13 +27,7 @@ package com.sun.java.swing.plaf.motif;
 
 import sun.awt.AppContext;
 
-import javax.swing.*;
-import javax.swing.border.*;
 import javax.swing.plaf.basic.BasicRadioButtonUI;
-
-import javax.swing.plaf.*;
-
-import java.awt.*;
 
 /**
  * RadioButtonUI implementation for MotifRadioButtonUI

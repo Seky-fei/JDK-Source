@@ -40,11 +40,6 @@
 
 package com.sun.java.swing.plaf.windows;
 
-import java.awt.*;
-import java.util.*;
-
-import javax.swing.*;
-
 import sun.awt.windows.ThemeReader;
 
 /**

@@ -24,9 +24,9 @@
  */
 package com.sun.java.swing.plaf.gtk;
 
-import javax.swing.plaf.synth.ColorType;
-import java.awt.Color;
 import javax.swing.plaf.ColorUIResource;
+import javax.swing.plaf.synth.ColorType;
+import java.awt.*;
 
 /**
  * @author Scott Violet

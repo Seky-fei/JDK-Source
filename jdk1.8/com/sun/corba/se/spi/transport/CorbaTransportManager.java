@@ -25,14 +25,14 @@
 
 package com.sun.corba.se.spi.transport;
 
-import java.util.Collection;
-
+import com.sun.corba.se.impl.oa.poa.Policies;
 import com.sun.corba.se.pept.transport.TransportManager;
 import com.sun.corba.se.spi.ior.IORTemplate;
 import com.sun.corba.se.spi.ior.ObjectAdapterId;
 
+import java.util.Collection;
+
 // REVISIT - impl/poa specific:
-import com.sun.corba.se.impl.oa.poa.Policies;
 
 /**
  * @author Harold Carr

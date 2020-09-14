@@ -25,8 +25,9 @@
 
 package com.sun.corba.se.pept.protocol;
 
-import com.sun.corba.se.pept.protocol.MessageMediator;
 import com.sun.corba.se.pept.protocol.ClientRequestDispatcher;
+import com.sun.corba.se.pept.protocol.MessageMediator;
+
 import java.util.Iterator;
 
 /**

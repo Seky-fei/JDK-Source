@@ -25,11 +25,6 @@
 
 package com.sun.java.swing.plaf.windows;
 
-import java.awt.*;
-import java.beans.*;
-import javax.swing.*;
-import javax.swing.border.*;
-import javax.swing.plaf.basic.*;
 import javax.swing.plaf.ComponentUI;
 
 import static com.sun.java.swing.plaf.windows.TMSchema.*;

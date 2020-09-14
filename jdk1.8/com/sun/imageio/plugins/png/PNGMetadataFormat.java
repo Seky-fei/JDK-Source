@@ -25,13 +25,10 @@
 
 package com.sun.imageio.plugins.png;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.ListResourceBundle;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.metadata.IIOMetadataFormat;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
+import java.util.Arrays;
 
 public class PNGMetadataFormat extends IIOMetadataFormatImpl {
 

@@ -25,9 +25,6 @@
 
 package com.sun.corba.se.impl.oa.poa;
 
-import org.omg.CORBA.*;
-import org.omg.PortableServer.*;
-
 final class IdAssignmentPolicyImpl
 extends org.omg.CORBA.LocalObject
 implements org.omg.PortableServer.IdAssignmentPolicy {

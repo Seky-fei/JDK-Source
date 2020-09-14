@@ -25,9 +25,9 @@
 
 package com.sun.imageio.plugins.common;
 
+import javax.imageio.stream.ImageInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import javax.imageio.stream.ImageInputStream;
 
 public class InputStreamAdapter extends InputStream {
 

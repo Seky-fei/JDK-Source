@@ -25,13 +25,13 @@
 
 package com.sun.corba.se.spi.servicecontext;
 
+import com.sun.corba.se.impl.orbutil.ORBUtility;
+import com.sun.corba.se.spi.orb.ORB;
+import com.sun.corba.se.spi.servicecontext.ServiceContextData;
 import org.omg.CORBA.BAD_PARAM;
-import java.util.Vector ;
-import java.util.Enumeration ;
-import com.sun.corba.se.spi.servicecontext.ServiceContext ;
-import com.sun.corba.se.spi.servicecontext.ServiceContextData ;
-import com.sun.corba.se.spi.orb.ORB ;
-import com.sun.corba.se.impl.orbutil.ORBUtility ;
+
+import java.util.Enumeration;
+import java.util.Vector;
 
 public class ServiceContextRegistry {
     private ORB orb ;

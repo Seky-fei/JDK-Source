@@ -25,9 +25,8 @@
 
 package com.sun.corba.se.impl.orb ;
 
-import org.omg.CORBA.portable.OutputStream ;
-
-import com.sun.corba.se.spi.orb.ORBVersion ;
+import com.sun.corba.se.spi.orb.ORBVersion;
+import org.omg.CORBA.portable.OutputStream;
 
 public class ORBVersionImpl implements ORBVersion {
     private byte orbType ;

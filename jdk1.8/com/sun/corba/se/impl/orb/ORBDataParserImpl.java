@@ -26,30 +26,20 @@
 
 package com.sun.corba.se.impl.orb ;
 
-import java.net.URL ;
-
-import org.omg.CORBA.CompletionStatus ;
-import org.omg.PortableInterceptor.ORBInitializer ;
-
-import com.sun.corba.se.pept.transport.Acceptor;
-
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion ;
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
-import com.sun.corba.se.spi.orb.DataCollector ;
-import com.sun.corba.se.spi.orb.ORB ;
-import com.sun.corba.se.spi.orb.ORBData ;
-import com.sun.corba.se.spi.orb.ParserImplTableBase ;
-import com.sun.corba.se.spi.orb.StringPair ;
-import com.sun.corba.se.spi.transport.CorbaContactInfoListFactory;
-import com.sun.corba.se.spi.transport.CorbaTransportManager;
-import com.sun.corba.se.spi.transport.IORToSocketInfo;
-import com.sun.corba.se.spi.transport.IIOPPrimaryToContactInfo;
-import com.sun.corba.se.spi.transport.ReadTimeouts;
-
-import com.sun.corba.se.impl.encoding.CodeSetComponentInfo ;
+import com.sun.corba.se.impl.encoding.CodeSetComponentInfo;
 import com.sun.corba.se.impl.legacy.connection.USLPort;
-import com.sun.corba.se.impl.orbutil.ORBConstants ;
-import com.sun.corba.se.impl.logging.ORBUtilSystemException ;
+import com.sun.corba.se.impl.logging.ORBUtilSystemException;
+import com.sun.corba.se.pept.transport.Acceptor;
+import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
+import com.sun.corba.se.spi.logging.CORBALogDomains;
+import com.sun.corba.se.spi.transport.CorbaContactInfoListFactory;
+import com.sun.corba.se.spi.transport.IIOPPrimaryToContactInfo;
+import com.sun.corba.se.spi.transport.IORToSocketInfo;
+import com.sun.corba.se.spi.transport.ReadTimeouts;
+import org.omg.CORBA.CompletionStatus;
+import org.omg.PortableInterceptor.ORBInitializer;
+
+import java.net.URL;
 
 
 public class ORBDataParserImpl extends ParserImplTableBase implements ORBData

@@ -25,10 +25,8 @@
 
 package com.sun.corba.se.impl.protocol;
 
-import org.omg.CORBA.INTERNAL;
+import com.sun.corba.se.spi.protocol.LocalClientRequestDispatcher;
 import org.omg.CORBA.portable.ServantObject;
-
-import com.sun.corba.se.spi.protocol.LocalClientRequestDispatcher ;
 
 /**
  * @author Harold Carr

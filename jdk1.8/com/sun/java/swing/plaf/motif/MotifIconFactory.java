@@ -25,16 +25,8 @@
 
 package com.sun.java.swing.plaf.motif;
 
-import javax.swing.*;
-
 import javax.swing.plaf.UIResource;
-
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Polygon;
-
+import java.awt.*;
 import java.io.Serializable;
 
 /**

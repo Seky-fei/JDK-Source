@@ -25,11 +25,7 @@
 
 package com.sun.java.swing.plaf.motif;
 
-import javax.swing.*;
-import javax.swing.border.*;
-import javax.swing.plaf.*;
 import javax.swing.plaf.basic.BasicScrollPaneUI;
-
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 

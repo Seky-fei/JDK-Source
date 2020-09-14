@@ -27,12 +27,6 @@ package com.sun.java.swing.plaf.motif;
 
 import sun.awt.AppContext;
 
-import javax.swing.*;
-
-import javax.swing.plaf.*;
-
-import java.awt.*;
-
 /**
  * MotifCheckBox implementation
  * <p>

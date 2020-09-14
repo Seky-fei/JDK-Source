@@ -25,22 +25,12 @@
 
 package com.sun.java.swing.plaf.windows;
 
-import javax.swing.plaf.basic.*;
-import javax.swing.*;
-import javax.swing.plaf.ActionMapUIResource;
-import javax.swing.plaf.ComponentUI;
-import java.awt.event.ActionEvent;
-import java.awt.event.HierarchyEvent;
-import java.awt.event.HierarchyListener;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-import java.awt.event.WindowListener;
-import java.awt.event.WindowStateListener;
-
-import java.awt.*;
-
 import com.sun.java.swing.plaf.windows.TMSchema.*;
 import com.sun.java.swing.plaf.windows.XPStyle.*;
+
+import javax.swing.plaf.ActionMapUIResource;
+import javax.swing.plaf.ComponentUI;
+import java.awt.event.*;
 
 /**
  * Windows rendition of the component.

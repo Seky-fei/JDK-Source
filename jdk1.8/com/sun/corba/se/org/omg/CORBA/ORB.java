@@ -25,7 +25,7 @@
 
 package com.sun.corba.se.org.omg.CORBA ;
 
-import org.omg.CORBA.ORBPackage.InvalidName ;
+import org.omg.CORBA.ORBPackage.InvalidName;
 
 /** This ORB class is defined to provide a home for the
 * register_initial_reference operation, which is added by

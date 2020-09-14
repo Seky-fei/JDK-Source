@@ -25,18 +25,15 @@
 
 package com.sun.corba.se.impl.interceptors;
 
+import com.sun.corba.se.impl.logging.ORBUtilSystemException;
+import com.sun.corba.se.spi.logging.CORBALogDomains;
+import org.omg.CORBA.LocalObject;
+import org.omg.CORBA.ORB;
 import org.omg.IOP.Codec;
 import org.omg.IOP.CodecFactory;
 import org.omg.IOP.CodecFactoryPackage.UnknownEncoding;
-import org.omg.IOP.Encoding;
 import org.omg.IOP.ENCODING_CDR_ENCAPS;
-
-import com.sun.corba.se.spi.logging.CORBALogDomains;
-
-import com.sun.corba.se.impl.logging.ORBUtilSystemException;
-
-import org.omg.CORBA.ORB;
-import org.omg.CORBA.LocalObject;
+import org.omg.IOP.Encoding;
 
 /**
  * CodecFactoryImpl is the implementation of the Codec Factory, as described

@@ -25,8 +25,8 @@
 
 package com.sun.corba.se.impl.orb ;
 
-import java.applet.Applet ;
-import java.util.Properties ;
+import java.applet.Applet;
+import java.util.Properties;
 
 public class AppletDataCollector extends DataCollectorBase {
     private Applet applet ;

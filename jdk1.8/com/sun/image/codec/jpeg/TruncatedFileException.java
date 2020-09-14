@@ -16,8 +16,8 @@
 
 package com.sun.image.codec.jpeg;
 
-import java.awt.image.Raster;
 import java.awt.image.BufferedImage;
+import java.awt.image.Raster;
 /**
  * Signals that a truncated file was detected.  This object contains
  * the Raster/BufferedImage that has the partially decoded image data

@@ -25,12 +25,12 @@
 
 package com.sun.corba.se.spi.legacy.connection;
 
-import java.net.ServerSocket;
-import java.net.Socket;
-import java.io.IOException;
-
 import com.sun.corba.se.spi.ior.IOR;
 import com.sun.corba.se.spi.transport.SocketInfo;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
 
 /**
  *

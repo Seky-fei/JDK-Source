@@ -25,13 +25,7 @@
 
 package com.sun.java.swing.plaf.motif;
 
-import javax.swing.*;
-import javax.swing.event.*;
-import javax.swing.plaf.*;
 import javax.swing.plaf.basic.BasicArrowButton;
-
-import java.awt.*;
-import java.awt.event.*;
 
 /**
  * Motif scroll bar button.

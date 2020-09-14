@@ -25,7 +25,6 @@
 
 package com.sun.corba.se.impl.naming.cosnaming;
 
-import java.io.*;
 import org.omg.CosNaming.NameComponent;
 
 

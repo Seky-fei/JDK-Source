@@ -25,14 +25,7 @@
 
 package com.sun.java.swing.plaf.motif;
 
-import javax.swing.*;
-import javax.swing.event.*;
-import javax.swing.plaf.*;
-import javax.swing.plaf.basic.BasicButtonListener;
 import javax.swing.plaf.basic.BasicCheckBoxMenuItemUI;
-
-import java.awt.*;
-import java.awt.event.*;
 
 
 /**

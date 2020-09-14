@@ -25,20 +25,12 @@
 
 package com.sun.corba.se.spi.resolver ;
 
-import java.io.File ;
+import com.sun.corba.se.impl.resolver.*;
+import com.sun.corba.se.spi.orb.ORB;
+import com.sun.corba.se.spi.orb.Operation;
+import com.sun.corba.se.spi.orb.StringPair;
 
-import com.sun.corba.se.impl.resolver.LocalResolverImpl ;
-import com.sun.corba.se.impl.resolver.ORBInitRefResolverImpl ;
-import com.sun.corba.se.impl.resolver.ORBDefaultInitRefResolverImpl ;
-import com.sun.corba.se.impl.resolver.BootstrapResolverImpl ;
-import com.sun.corba.se.impl.resolver.CompositeResolverImpl ;
-import com.sun.corba.se.impl.resolver.INSURLOperationImpl ;
-import com.sun.corba.se.impl.resolver.SplitLocalResolverImpl ;
-import com.sun.corba.se.impl.resolver.FileResolverImpl ;
-
-import com.sun.corba.se.spi.orb.ORB ;
-import com.sun.corba.se.spi.orb.Operation ;
-import com.sun.corba.se.spi.orb.StringPair ;
+import java.io.File;
 
 /** Utility class that provides factory methods for all of the
  * standard resolvers that we provide.

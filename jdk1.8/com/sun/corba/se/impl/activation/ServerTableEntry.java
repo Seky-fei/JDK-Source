@@ -30,22 +30,10 @@ package com.sun.corba.se.impl.activation;
  * @since       JDK1.2
  */
 
-import org.omg.CORBA.CompletionStatus;
-
-import com.sun.corba.se.spi.activation.Server;
-import com.sun.corba.se.spi.activation.EndPointInfo;
-import com.sun.corba.se.spi.activation.ORBAlreadyRegistered;
-import com.sun.corba.se.spi.activation.ORBPortInfo;
-import com.sun.corba.se.spi.activation.InvalidORBid;
-import com.sun.corba.se.spi.activation.ServerHeldDown;
-import com.sun.corba.se.spi.activation.RepositoryPackage.ServerDef;
-import com.sun.corba.se.spi.activation.IIOP_CLEAR_TEXT;
-import com.sun.corba.se.spi.orb.ORB ;
-
+import com.sun.corba.se.impl.logging.ActivationSystemException;
 import com.sun.corba.se.impl.orbutil.ORBConstants;
-import com.sun.corba.se.impl.logging.ActivationSystemException ;
+import com.sun.corba.se.spi.activation.RepositoryPackage.ServerDef;
 
-import java.io.File;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.NoSuchElementException;

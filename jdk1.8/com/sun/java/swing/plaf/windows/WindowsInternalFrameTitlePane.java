@@ -28,12 +28,7 @@ package com.sun.java.swing.plaf.windows;
 import sun.swing.SwingUtilities2;
 
 import javax.swing.*;
-import javax.swing.border.*;
-import javax.swing.UIManager;
-import javax.swing.plaf.*;
 import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
-import java.awt.*;
-import java.awt.event.*;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyVetoException;

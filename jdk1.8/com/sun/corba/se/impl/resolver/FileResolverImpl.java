@@ -25,21 +25,16 @@
 
 package com.sun.corba.se.impl.resolver ;
 
-import org.omg.CORBA.ORBPackage.InvalidName;
-
-import com.sun.corba.se.spi.resolver.Resolver ;
-
-import java.util.Enumeration;
-import java.util.Properties;
-import java.util.Set;
-import java.util.HashSet;
+import com.sun.corba.se.impl.orbutil.CorbaResourceUtil;
+import com.sun.corba.se.spi.orb.ORB;
+import com.sun.corba.se.spi.resolver.Resolver;
 
 import java.io.File;
 import java.io.FileInputStream;
-
-import com.sun.corba.se.spi.orb.ORB ;
-
-import com.sun.corba.se.impl.orbutil.CorbaResourceUtil ;
+import java.util.Enumeration;
+import java.util.HashSet;
+import java.util.Properties;
+import java.util.Set;
 
 public class FileResolverImpl implements Resolver
 {

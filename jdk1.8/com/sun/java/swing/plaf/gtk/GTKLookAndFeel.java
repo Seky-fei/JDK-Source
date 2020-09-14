@@ -25,28 +25,20 @@
 
 package com.sun.java.swing.plaf.gtk;
 
-import java.awt.*;
-import java.awt.event.*;
-import java.beans.*;
-import java.io.File;
-import java.lang.ref.*;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.Locale;
-import javax.swing.*;
-import javax.swing.colorchooser.*;
-import javax.swing.plaf.*;
-import javax.swing.plaf.synth.*;
-import javax.swing.text.DefaultEditorKit;
-
 import com.sun.java.swing.plaf.gtk.GTKConstants.PositionType;
 import com.sun.java.swing.plaf.gtk.GTKConstants.StateType;
+import sun.awt.OSInfo;
 import sun.awt.SunToolkit;
 import sun.awt.UNIXToolkit;
-import sun.awt.OSInfo;
 import sun.security.action.GetPropertyAction;
 import sun.swing.DefaultLayoutStyle;
 import sun.swing.SwingUtilities2;
+
+import javax.swing.text.DefaultEditorKit;
+import java.io.File;
+import java.security.AccessController;
+import java.security.PrivilegedAction;
+import java.util.Locale;
 
 /**
  * @author Scott Violet

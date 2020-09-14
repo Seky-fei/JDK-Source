@@ -31,12 +31,11 @@
 
 package com.sun.corba.se.impl.corba;
 
-import java.util.Vector;
-
 import org.omg.CORBA.Bounds;
 import org.omg.CORBA.ExceptionList;
 import org.omg.CORBA.TypeCode;
-import org.omg.CORBA.ORB;
+
+import java.util.Vector;
 
 
 public class ExceptionListImpl extends ExceptionList {

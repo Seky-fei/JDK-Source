@@ -25,18 +25,15 @@
 
 package com.sun.corba.se.spi.protocol;
 
+import com.sun.corba.se.impl.protocol.giopmsgheaders.LocateRequestMessage;
+import com.sun.corba.se.impl.protocol.giopmsgheaders.RequestMessage;
+import com.sun.corba.se.pept.protocol.ProtocolHandler;
+import com.sun.corba.se.spi.ior.IOR;
+import com.sun.corba.se.spi.protocol.CorbaMessageMediator;
+import com.sun.corba.se.spi.servicecontext.ServiceContexts;
 import org.omg.CORBA.CompletionStatus;
 import org.omg.CORBA.SystemException;
 import org.omg.CORBA.portable.UnknownException;
-
-import com.sun.corba.se.pept.protocol.ProtocolHandler;
-
-import com.sun.corba.se.spi.ior.IOR ;
-import com.sun.corba.se.spi.protocol.CorbaMessageMediator;
-
-import com.sun.corba.se.spi.servicecontext.ServiceContexts;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.LocateRequestMessage;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.RequestMessage;
 
 /**
  * @author Harold Carr

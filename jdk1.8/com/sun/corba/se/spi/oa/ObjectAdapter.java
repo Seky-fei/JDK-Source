@@ -25,16 +25,12 @@
 
 package com.sun.corba.se.spi.oa ;
 
-import org.omg.CORBA.Policy ;
-
-import org.omg.PortableInterceptor.ObjectReferenceTemplate ;
-import org.omg.PortableInterceptor.ObjectReferenceFactory ;
-
-import com.sun.corba.se.spi.orb.ORB ;
-
-import com.sun.corba.se.spi.oa.OADestroyed ;
-
-import com.sun.corba.se.spi.ior.IORTemplate ;
+import com.sun.corba.se.spi.ior.IORTemplate;
+import com.sun.corba.se.spi.oa.OADestroyed;
+import com.sun.corba.se.spi.orb.ORB;
+import org.omg.CORBA.Policy;
+import org.omg.PortableInterceptor.ObjectReferenceFactory;
+import org.omg.PortableInterceptor.ObjectReferenceTemplate;
 
 // REVISIT: What should the order be?  enter/push...pop/exit?
 

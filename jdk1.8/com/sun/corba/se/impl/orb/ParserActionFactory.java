@@ -25,7 +25,7 @@
 
 package com.sun.corba.se.impl.orb ;
 
-import com.sun.corba.se.spi.orb.Operation ;
+import com.sun.corba.se.spi.orb.Operation;
 
 public class ParserActionFactory{
     private ParserActionFactory() {}

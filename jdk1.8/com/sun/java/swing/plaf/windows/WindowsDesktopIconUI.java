@@ -25,14 +25,6 @@
 
 package com.sun.java.swing.plaf.windows;
 
-import java.awt.*;
-import javax.swing.plaf.*;
-import javax.swing.plaf.basic.*;
-import javax.swing.*;
-import javax.swing.border.*;
-
-
-
 /**
  * Windows icon for a minimized window on the desktop.
  * <p>

@@ -25,18 +25,14 @@
 
 package com.sun.corba.se.impl.ior.iiop;
 
-import org.omg.CORBA_2_3.portable.InputStream ;
-import org.omg.CORBA_2_3.portable.OutputStream ;
-
-import com.sun.corba.se.spi.ior.TaggedComponentBase ;
-
-import com.sun.corba.se.spi.ior.iiop.CodeSetsComponent ;
-
-import org.omg.IOP.TAG_CODE_SETS ;
-
-import com.sun.corba.se.impl.encoding.CodeSetComponentInfo ;
-import com.sun.corba.se.impl.encoding.MarshalOutputStream ;
-import com.sun.corba.se.impl.encoding.MarshalInputStream ;
+import com.sun.corba.se.impl.encoding.CodeSetComponentInfo;
+import com.sun.corba.se.impl.encoding.MarshalInputStream;
+import com.sun.corba.se.impl.encoding.MarshalOutputStream;
+import com.sun.corba.se.spi.ior.TaggedComponentBase;
+import com.sun.corba.se.spi.ior.iiop.CodeSetsComponent;
+import org.omg.CORBA_2_3.portable.InputStream;
+import org.omg.CORBA_2_3.portable.OutputStream;
+import org.omg.IOP.TAG_CODE_SETS;
 
 /**
  * @author

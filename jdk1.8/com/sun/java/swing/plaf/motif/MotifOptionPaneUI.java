@@ -25,16 +25,9 @@
 
 package com.sun.java.swing.plaf.motif;
 
-import javax.swing.*;
-import javax.swing.plaf.basic.BasicOptionPaneUI;
 import javax.swing.plaf.ComponentUI;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Insets;
-import java.awt.Rectangle;
+import javax.swing.plaf.basic.BasicOptionPaneUI;
+import java.awt.*;
 
 /**
  * Provides the CDE/Motif look and feel for a JOptionPane.

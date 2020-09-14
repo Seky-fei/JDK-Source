@@ -26,24 +26,9 @@
 package com.sun.java.swing.plaf.motif;
 
 import sun.swing.SwingUtilities2;
-import javax.swing.*;
-import javax.swing.event.*;
-import javax.swing.border.*;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.Frame;
-import java.awt.Graphics;
-import java.awt.Insets;
-import java.awt.LayoutManager;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.event.*;
-import javax.swing.plaf.*;
+
 import javax.swing.plaf.basic.BasicPopupMenuUI;
+import java.awt.*;
 
 
 /**

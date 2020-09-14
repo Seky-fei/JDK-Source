@@ -25,15 +25,13 @@
 
 package com.sun.imageio.plugins.jpeg;
 
-import javax.imageio.IIOException;
+import org.w3c.dom.NamedNodeMap;
+import org.w3c.dom.Node;
+
 import javax.imageio.metadata.IIOInvalidTreeException;
 import javax.imageio.metadata.IIOMetadataNode;
 import javax.imageio.stream.ImageOutputStream;
-
 import java.io.IOException;
-
-import org.w3c.dom.Node;
-import org.w3c.dom.NamedNodeMap;
 
 /**
  * An Adobe APP14 (Application-Specific) marker segment.

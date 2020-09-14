@@ -39,7 +39,7 @@
 
 package com.sun.corba.se.impl.orbutil.concurrent;
 
-import com.sun.corba.se.impl.orbutil.ORBUtility ;
+import com.sun.corba.se.impl.orbutil.ORBUtility;
 
 /**
  * This class is designed for fans of POSIX pthreads programming.

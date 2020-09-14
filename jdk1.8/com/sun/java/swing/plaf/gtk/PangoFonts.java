@@ -25,13 +25,11 @@
 
 package com.sun.java.swing.plaf.gtk;
 
-import java.awt.*;
-import java.awt.geom.AffineTransform;
-import javax.swing.plaf.FontUIResource;
-import java.util.StringTokenizer;
-
-import sun.font.FontConfigManager;
 import sun.font.FontUtilities;
+
+import javax.swing.plaf.FontUIResource;
+import java.awt.geom.AffineTransform;
+import java.util.StringTokenizer;
 
 /**
  * @author Shannon Hickey

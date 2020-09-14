@@ -25,9 +25,8 @@
 
 package com.sun.corba.se.impl.oa ;
 
-import org.omg.CORBA.SystemException ;
-
-import com.sun.corba.se.spi.oa.NullServant ;
+import com.sun.corba.se.spi.oa.NullServant;
+import org.omg.CORBA.SystemException;
 
 public class NullServantImpl implements NullServant
 {

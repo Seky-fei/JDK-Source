@@ -25,9 +25,9 @@
 
 package com.sun.corba.se.spi.oa ;
 
-import com.sun.corba.se.impl.oa.poa.POAFactory ;
-import com.sun.corba.se.impl.oa.toa.TOAFactory ;
-import com.sun.corba.se.spi.orb.ORB ;
+import com.sun.corba.se.impl.oa.poa.POAFactory;
+import com.sun.corba.se.impl.oa.toa.TOAFactory;
+import com.sun.corba.se.spi.orb.ORB;
 
 /** OADefault provides methods to create the standard ObjectAdapterFactory
  * instances for this version of the ORB.  These methods are generally

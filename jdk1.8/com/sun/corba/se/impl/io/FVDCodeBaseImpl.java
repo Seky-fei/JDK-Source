@@ -31,22 +31,17 @@
 
 package com.sun.corba.se.impl.io;
 
+import com.sun.corba.se.impl.logging.OMGSystemException;
+import com.sun.corba.se.spi.logging.CORBALogDomains;
+import com.sun.org.omg.CORBA.ValueDefPackage.FullValueDescription;
+import com.sun.org.omg.SendingContext._CodeBaseImplBase;
+import org.omg.CORBA.CompletionStatus;
 import org.omg.CORBA.ORB;
-import java.util.Properties;
+
 import javax.rmi.CORBA.Util;
 import javax.rmi.CORBA.ValueHandler;
 import java.util.Hashtable;
 import java.util.Stack;
-
-import com.sun.org.omg.CORBA.ValueDefPackage.FullValueDescription;
-import com.sun.org.omg.SendingContext._CodeBaseImplBase;
-import com.sun.org.omg.SendingContext.CodeBase;
-import com.sun.org.omg.SendingContext.CodeBaseHelper;
-import org.omg.CORBA.CompletionStatus;
-import org.omg.CORBA.ORB;
-
-import com.sun.corba.se.impl.logging.OMGSystemException;
-import com.sun.corba.se.spi.logging.CORBALogDomains;
 
 /**
  * This class acts as the remote interface to receivers wishing to retrieve

@@ -25,17 +25,11 @@
 
 package com.sun.java.swing.plaf.windows;
 
-import javax.swing.plaf.basic.*;
-import javax.swing.border.*;
-import javax.swing.plaf.*;
-import javax.swing.*;
-
-import java.awt.*;
+import sun.awt.AppContext;
 
 import static com.sun.java.swing.plaf.windows.TMSchema.*;
 import static com.sun.java.swing.plaf.windows.TMSchema.Part.*;
 import static com.sun.java.swing.plaf.windows.XPStyle.Skin;
-import sun.awt.AppContext;
 
 
 /**

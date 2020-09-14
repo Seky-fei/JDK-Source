@@ -25,14 +25,11 @@
 
 package com.sun.corba.se.spi.ior;
 
-import java.util.List;
+import com.sun.corba.se.impl.ior.FreezableList;
+import com.sun.corba.se.spi.ior.Identifiable;
+
 import java.util.ArrayList;
 import java.util.Iterator;
-
-import com.sun.corba.se.impl.ior.FreezableList ;
-
-import com.sun.corba.se.spi.ior.TaggedComponent ;
-import com.sun.corba.se.spi.ior.Identifiable ;
 
 /** Convenience class for defining objects that contain lists of Identifiables.
  * Mainly implements iteratorById.  Also note that the constructor creates the

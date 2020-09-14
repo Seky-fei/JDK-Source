@@ -25,8 +25,8 @@
 
 package com.sun.corba.se.spi.ior ;
 
-import java.util.List ;
-import java.util.Iterator ;
+import java.util.Iterator;
+import java.util.List;
 
 /** An IORTemplate provides all of the data necessary to create an IOR except
  * for the typeId and ObjectId.  It is a list of TaggedProfileTemplates.

@@ -31,38 +31,16 @@
 
 package com.sun.corba.se.impl.orbutil;
 
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.security.DigestOutputStream;
-import java.security.AccessController;
-import java.security.PrivilegedExceptionAction;
-import java.security.PrivilegedActionException;
-import java.security.PrivilegedAction;
+import com.sun.corba.se.impl.io.ObjectStreamClass;
+import com.sun.corba.se.impl.io.ValueUtility;
+import org.omg.CORBA.ValueMember;
 
-import java.lang.reflect.Modifier;
-import java.lang.reflect.Array;
-import java.lang.reflect.Field;
-import java.lang.reflect.Member;
-import java.lang.reflect.Method;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Proxy;
-import java.lang.reflect.InvocationTargetException;
-
-import java.io.IOException;
-import java.io.DataOutputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.InvalidClassException;
-import java.io.Serializable;
-import java.io.Externalizable;
-
+import java.io.*;
+import java.lang.reflect.*;
+import java.security.*;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Hashtable;
-
-import org.omg.CORBA.ValueMember;
-
-import com.sun.corba.se.impl.io.ValueUtility;
-import com.sun.corba.se.impl.io.ObjectStreamClass;
 
 /**
  * This is duplicated here to preserve the JDK 1.3.1FCS behavior

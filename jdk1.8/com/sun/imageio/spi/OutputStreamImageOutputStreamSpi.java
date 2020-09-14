@@ -25,14 +25,14 @@
 
 package com.sun.imageio.spi;
 
+import javax.imageio.spi.ImageOutputStreamSpi;
+import javax.imageio.stream.FileCacheImageOutputStream;
+import javax.imageio.stream.ImageOutputStream;
+import javax.imageio.stream.MemoryCacheImageOutputStream;
 import java.io.File;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.Locale;
-import javax.imageio.spi.ImageOutputStreamSpi;
-import javax.imageio.stream.ImageOutputStream;
-import javax.imageio.stream.FileCacheImageOutputStream;
-import javax.imageio.stream.MemoryCacheImageOutputStream;
 
 public class OutputStreamImageOutputStreamSpi extends ImageOutputStreamSpi {
 

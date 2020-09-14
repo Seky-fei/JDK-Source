@@ -25,8 +25,8 @@
 
 package com.sun.corba.se.impl.orb ;
 
-import com.sun.corba.se.spi.orb.ParserData ;
-import com.sun.corba.se.spi.orb.Operation ;
+import com.sun.corba.se.spi.orb.Operation;
+import com.sun.corba.se.spi.orb.ParserData;
 
 public abstract class ParserDataBase implements ParserData {
     private String  propertyName ;

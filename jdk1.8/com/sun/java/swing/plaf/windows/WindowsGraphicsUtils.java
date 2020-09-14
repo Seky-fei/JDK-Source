@@ -27,9 +27,6 @@ package com.sun.java.swing.plaf.windows;
 
 import sun.swing.SwingUtilities2;
 
-import java.awt.*;
-
-import javax.swing.*;
 import javax.swing.plaf.UIResource;
 
 import static com.sun.java.swing.plaf.windows.TMSchema.*;

@@ -25,17 +25,14 @@
 
 package com.sun.corba.se.spi.ior;
 
-import java.util.List ;
-import java.util.Iterator ;
+import com.sun.corba.se.spi.ior.Identifiable;
+import com.sun.corba.se.spi.ior.ObjectId;
+import com.sun.corba.se.spi.ior.WriteContents;
+import com.sun.corba.se.spi.orb.ORB;
+import org.omg.CORBA_2_3.portable.OutputStream;
 
-import org.omg.CORBA_2_3.portable.OutputStream ;
-
-import com.sun.corba.se.spi.ior.Identifiable ;
-import com.sun.corba.se.spi.ior.Writeable ;
-import com.sun.corba.se.spi.ior.ObjectId ;
-import com.sun.corba.se.spi.ior.WriteContents ;
-
-import com.sun.corba.se.spi.orb.ORB ;
+import java.util.Iterator;
+import java.util.List;
 
 /** Base template for creating TaggedProfiles.  A TaggedProfile will often contain
 * tagged components.  A template that does not contain components acts like

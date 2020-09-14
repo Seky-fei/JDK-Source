@@ -31,14 +31,11 @@
 
 package com.sun.corba.se.impl.corba;
 
+import com.sun.corba.se.impl.logging.ORBUtilSystemException;
+import com.sun.corba.se.spi.logging.CORBALogDomains;
 import org.omg.CORBA.Any;
 import org.omg.CORBA.Context;
-import org.omg.CORBA.NO_IMPLEMENT;
-import org.omg.CORBA.SystemException;
 import org.omg.CORBA.NVList;
-
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
-import com.sun.corba.se.impl.logging.ORBUtilSystemException ;
 
 public final class ContextImpl extends Context {
 

@@ -25,8 +25,8 @@
 
 package com.sun.corba.se.impl.orbutil;
 
-import java.util.ResourceBundle;
 import java.util.MissingResourceException;
+import java.util.ResourceBundle;
 
 public class CorbaResourceUtil {
     public static String getString(String key) {

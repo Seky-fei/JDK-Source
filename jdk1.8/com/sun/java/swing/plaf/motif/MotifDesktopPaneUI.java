@@ -25,15 +25,7 @@
 
 package com.sun.java.swing.plaf.motif;
 
-import javax.swing.*;
-import java.awt.Rectangle;
-import java.awt.Dimension;
-import java.awt.Insets;
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Component;
-import java.awt.Point;
-import javax.swing.plaf.*;
+import java.awt.*;
 import java.io.Serializable;
 
 /**

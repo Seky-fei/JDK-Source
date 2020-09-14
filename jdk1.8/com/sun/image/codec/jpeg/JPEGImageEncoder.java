@@ -43,11 +43,11 @@ package com.sun.image.codec.jpeg;
  * streams.
  */
 
-import java.io.OutputStream;
-import java.io.IOException;
 import java.awt.image.BufferedImage;
 import java.awt.image.ColorModel;
 import java.awt.image.Raster;
+import java.io.IOException;
+import java.io.OutputStream;
 
 /**
  * JPEGImageEncoder encodes buffers of image data into JPEG data

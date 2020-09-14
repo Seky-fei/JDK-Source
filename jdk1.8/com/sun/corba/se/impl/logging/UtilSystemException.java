@@ -5,27 +5,13 @@
 
 package com.sun.corba.se.impl.logging ;
 
-import java.util.logging.Logger ;
-import java.util.logging.Level ;
-
-import org.omg.CORBA.OMGVMCID ;
-import com.sun.corba.se.impl.util.SUNVMCID ;
-import org.omg.CORBA.CompletionStatus ;
-import org.omg.CORBA.SystemException ;
-
-import com.sun.corba.se.spi.orb.ORB ;
-
-import com.sun.corba.se.spi.logging.LogWrapperFactory;
-
+import com.sun.corba.se.impl.util.SUNVMCID;
 import com.sun.corba.se.spi.logging.LogWrapperBase;
+import com.sun.corba.se.spi.logging.LogWrapperFactory;
+import com.sun.corba.se.spi.orb.ORB;
 
-import org.omg.CORBA.BAD_OPERATION ;
-import org.omg.CORBA.BAD_PARAM ;
-import org.omg.CORBA.DATA_CONVERSION ;
-import org.omg.CORBA.MARSHAL ;
-import org.omg.CORBA.INV_OBJREF ;
-import org.omg.CORBA.INTERNAL ;
-import org.omg.CORBA.UNKNOWN ;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class UtilSystemException extends LogWrapperBase {
     

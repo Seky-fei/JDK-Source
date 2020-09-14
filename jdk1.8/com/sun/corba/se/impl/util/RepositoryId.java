@@ -31,22 +31,20 @@
 
 package com.sun.corba.se.impl.util;
 
-import java.util.StringTokenizer;
-import java.util.Hashtable;
+import com.sun.corba.se.impl.io.ObjectStreamClass;
+import org.omg.CORBA.portable.IDLEntity;
+import org.omg.CORBA.portable.ValueBase;
+
+import javax.rmi.CORBA.Util;
 import java.io.IOException;
 import java.lang.reflect.Method;
+import java.net.MalformedURLException;
+import java.util.Hashtable;
 
 // Imports for using codebase URL to load class
-import java.net.MalformedURLException;
-import org.omg.CORBA.portable.ValueBase;
-import org.omg.CORBA.portable.IDLEntity;
-
 //d11638 files in the same package, therefore remove their reference
 //import com.sun.corba.se.impl.util.JDKBridge;
 //import com.sun.corba.se.impl.util.IdentityHashtable;
-import com.sun.corba.se.impl.io.ObjectStreamClass;
-
-import javax.rmi.CORBA.Util;
 
 public class RepositoryId {
 

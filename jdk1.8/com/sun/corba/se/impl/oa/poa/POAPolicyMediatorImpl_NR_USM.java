@@ -25,27 +25,11 @@
 
 package com.sun.corba.se.impl.oa.poa ;
 
-import java.util.Enumeration ;
-
-import org.omg.PortableServer.POA ;
-import org.omg.PortableServer.Servant ;
-import org.omg.PortableServer.ServantManager ;
-import org.omg.PortableServer.ServantLocator ;
-import org.omg.PortableServer.ForwardRequest ;
-import org.omg.PortableServer.POAPackage.NoServant ;
-import org.omg.PortableServer.POAPackage.WrongPolicy ;
-import org.omg.PortableServer.POAPackage.ObjectNotActive ;
-import org.omg.PortableServer.POAPackage.ServantNotActive ;
-import org.omg.PortableServer.POAPackage.ObjectAlreadyActive ;
-import org.omg.PortableServer.POAPackage.ServantAlreadyActive ;
-import org.omg.PortableServer.ServantLocatorPackage.CookieHolder ;
-
-import com.sun.corba.se.impl.orbutil.concurrent.SyncUtil ;
-import com.sun.corba.se.impl.orbutil.ORBUtility ;
-import com.sun.corba.se.impl.orbutil.ORBConstants ;
-
-import com.sun.corba.se.spi.oa.OAInvocationInfo ;
-import com.sun.corba.se.impl.oa.NullServantImpl ;
+import com.sun.corba.se.impl.oa.NullServantImpl;
+import com.sun.corba.se.spi.oa.OAInvocationInfo;
+import org.omg.PortableServer.*;
+import org.omg.PortableServer.POAPackage.*;
+import org.omg.PortableServer.ServantLocatorPackage.CookieHolder;
 
 /** Implementation of POARequesHandler that provides policy specific
  * operations on the POA.

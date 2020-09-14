@@ -25,29 +25,19 @@
 
 package com.sun.corba.se.impl.oa.poa;
 
-import java.util.Iterator;
-import java.util.Collections;
-import java.util.Set;
-import java.util.HashSet;
-
+import com.sun.corba.se.impl.logging.POASystemException;
+import com.sun.corba.se.impl.orbutil.ORBUtility;
+import com.sun.corba.se.spi.protocol.PIHandler;
+import org.omg.CORBA.CompletionStatus;
 import org.omg.CORBA.LocalObject;
-import org.omg.CORBA.CompletionStatus ;
-
+import org.omg.PortableInterceptor.*;
+import org.omg.PortableServer.POA;
 import org.omg.PortableServer.POAManager;
 import org.omg.PortableServer.POAManagerPackage.State;
-import org.omg.PortableServer.POA;
 
-import org.omg.PortableInterceptor.DISCARDING ;
-import org.omg.PortableInterceptor.ACTIVE ;
-import org.omg.PortableInterceptor.HOLDING ;
-import org.omg.PortableInterceptor.INACTIVE ;
-import org.omg.PortableInterceptor.NON_EXISTENT ;
-
-import com.sun.corba.se.spi.protocol.PIHandler ;
-
-import com.sun.corba.se.impl.logging.POASystemException ;
-
-import com.sun.corba.se.impl.orbutil.ORBUtility ;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
 
 /** POAManagerImpl is the implementation of the POAManager interface.
  *  Its public methods are activate(), hold_requests(), discard_requests()

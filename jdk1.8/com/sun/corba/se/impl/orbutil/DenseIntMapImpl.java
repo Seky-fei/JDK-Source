@@ -25,7 +25,7 @@
 
 package com.sun.corba.se.impl.orbutil ;
 
-import java.util.ArrayList ;
+import java.util.ArrayList;
 
 /** Utility for managing mappings from densely allocated integer
  * keys to arbitrary objects.  This should only be used for

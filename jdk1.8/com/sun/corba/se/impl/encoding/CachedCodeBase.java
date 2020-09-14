@@ -24,15 +24,15 @@
  */
 package com.sun.corba.se.impl.encoding;
 
-import java.util.Hashtable;
+import com.sun.corba.se.spi.ior.IOR;
+import com.sun.corba.se.spi.orb.ORB;
+import com.sun.corba.se.spi.transport.CorbaConnection;
 import com.sun.org.omg.CORBA.ValueDefPackage.FullValueDescription;
 import com.sun.org.omg.SendingContext.CodeBase;
 import com.sun.org.omg.SendingContext.CodeBaseHelper;
 import com.sun.org.omg.SendingContext._CodeBaseImplBase;
-import com.sun.org.omg.SendingContext._CodeBaseStub;
-import com.sun.corba.se.spi.transport.CorbaConnection;
-import com.sun.corba.se.spi.ior.IOR;
-import com.sun.corba.se.spi.orb.ORB;
+
+import java.util.Hashtable;
 /**
  * Provides the reading side with a per connection cache of
  * info obtained via calls to the remote CodeBase.

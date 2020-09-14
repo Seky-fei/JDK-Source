@@ -25,8 +25,8 @@
 
 package com.sun.corba.se.impl.monitoring;
 
-import com.sun.corba.se.spi.monitoring.MonitoredAttributeInfoFactory;
 import com.sun.corba.se.spi.monitoring.MonitoredAttributeInfo;
+import com.sun.corba.se.spi.monitoring.MonitoredAttributeInfoFactory;
 
 public class MonitoredAttributeInfoFactoryImpl
     implements MonitoredAttributeInfoFactory

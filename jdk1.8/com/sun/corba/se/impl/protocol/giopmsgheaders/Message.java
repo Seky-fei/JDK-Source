@@ -25,9 +25,10 @@
 
 package com.sun.corba.se.impl.protocol.giopmsgheaders;
 
+import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
+
 import java.io.IOException;
 import java.nio.ByteBuffer;
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
 
 /**
  * This is the base interface for different message type interfaces.

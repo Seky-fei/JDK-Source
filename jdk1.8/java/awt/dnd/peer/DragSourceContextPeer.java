@@ -25,7 +25,6 @@
 
 package java.awt.dnd.peer;
 
-import java.awt.*;
 import java.awt.dnd.DragSourceContext;
 import java.awt.dnd.InvalidDnDOperationException;
 

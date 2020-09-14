@@ -25,8 +25,8 @@
 
 package com.sun.corba.se.impl.copyobject ;
 
-import com.sun.corba.se.spi.copyobject.ObjectCopier ;
-import com.sun.corba.se.spi.copyobject.ReflectiveCopyException ;
+import com.sun.corba.se.spi.copyobject.ObjectCopier;
+import com.sun.corba.se.spi.copyobject.ReflectiveCopyException;
 
 /** Trys a first ObjectCopier.  If the first throws a ReflectiveCopyException,
  * falls back and tries a second ObjectCopier.

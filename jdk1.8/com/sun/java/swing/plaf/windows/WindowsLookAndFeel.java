@@ -40,41 +40,22 @@
 
 package com.sun.java.swing.plaf.windows;
 
-import java.awt.*;
-import java.awt.image.BufferedImage;
-import java.awt.image.ImageFilter;
-import java.awt.image.ImageProducer;
-import java.awt.image.FilteredImageSource;
-import java.awt.image.RGBImageFilter;
-
-import javax.swing.plaf.*;
-import javax.swing.*;
-import javax.swing.plaf.basic.*;
-import javax.swing.border.*;
-import javax.swing.text.DefaultEditorKit;
-
-import java.awt.Font;
-import java.awt.Color;
-import java.awt.event.ActionEvent;
-
-import java.security.AccessController;
-
-import sun.awt.SunToolkit;
+import com.sun.java.swing.plaf.windows.WindowsIconFactory.VistaMenuItemCheckIconFactory;
 import sun.awt.OSInfo;
+import sun.awt.SunToolkit;
 import sun.awt.shell.ShellFolder;
 import sun.font.FontUtilities;
 import sun.security.action.GetPropertyAction;
+import sun.swing.*;
 
-import sun.swing.DefaultLayoutStyle;
-import sun.swing.ImageIconUIResource;
-import sun.swing.SwingLazyValue;
-import sun.swing.SwingUtilities2;
-import sun.swing.StringUIClientPropertyKey;
+import javax.swing.text.DefaultEditorKit;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.image.*;
+import java.security.AccessController;
 
 import static com.sun.java.swing.plaf.windows.TMSchema.*;
 import static com.sun.java.swing.plaf.windows.XPStyle.Skin;
-
-import com.sun.java.swing.plaf.windows.WindowsIconFactory.VistaMenuItemCheckIconFactory;
 
 /**
  * Implements the Windows95/98/NT/2000 Look and Feel.

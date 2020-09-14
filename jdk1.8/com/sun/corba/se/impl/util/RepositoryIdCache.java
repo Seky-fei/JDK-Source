@@ -31,10 +31,9 @@
 
 package com.sun.corba.se.impl.util;
 
-import java.util.Stack;
-import java.util.Hashtable;
 import java.util.EmptyStackException;
-import java.util.Enumeration;
+import java.util.Hashtable;
+import java.util.Stack;
 
 // Really limited pool - in this case just creating several at a time...
 class RepositoryIdPool extends Stack {

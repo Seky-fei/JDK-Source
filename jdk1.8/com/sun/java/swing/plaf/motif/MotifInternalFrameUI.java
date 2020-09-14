@@ -25,18 +25,6 @@
 
 package com.sun.java.swing.plaf.motif;
 
-import java.awt.*;
-import java.awt.event.*;
-import javax.swing.*;
-import javax.swing.event.*;
-
-import java.util.EventListener;
-
-import javax.swing.plaf.basic.*;
-import javax.swing.border.*;
-import javax.swing.plaf.*;
-
-
 /**
  * A Motif L&F implementation of InternalFrame.
  * <p>

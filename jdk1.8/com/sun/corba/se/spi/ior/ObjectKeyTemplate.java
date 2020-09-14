@@ -25,12 +25,10 @@
 
 package com.sun.corba.se.spi.ior;
 
-import org.omg.CORBA_2_3.portable.OutputStream ;
-
-import com.sun.corba.se.spi.orb.ORBVersion ;
-import com.sun.corba.se.spi.orb.ORB ;
-
-import com.sun.corba.se.spi.protocol.CorbaServerRequestDispatcher ;
+import com.sun.corba.se.spi.orb.ORB;
+import com.sun.corba.se.spi.orb.ORBVersion;
+import com.sun.corba.se.spi.protocol.CorbaServerRequestDispatcher;
+import org.omg.CORBA_2_3.portable.OutputStream;
 
 /** An ObjectKeyTemplate represents the part of an Object Key
  * that corresponds to the object adapter used to create an

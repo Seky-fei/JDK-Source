@@ -33,8 +33,6 @@
 package com.sun.corba.se.impl.orbutil;
 
 import java.lang.reflect.Field;
-import java.lang.Comparable;
-import java.util.Hashtable;
 
 /**
  * This is duplicated here somewhat in haste since we can't

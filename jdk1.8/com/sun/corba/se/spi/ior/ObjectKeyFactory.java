@@ -25,10 +25,9 @@
 
 package com.sun.corba.se.spi.ior;
 
-import org.omg.CORBA_2_3.portable.InputStream ;
-
-import com.sun.corba.se.spi.ior.ObjectKey ;
-import com.sun.corba.se.spi.ior.ObjectKeyTemplate ;
+import com.sun.corba.se.spi.ior.ObjectKey;
+import com.sun.corba.se.spi.ior.ObjectKeyTemplate;
+import org.omg.CORBA_2_3.portable.InputStream;
 
 /** Construct ObjectKey and ObjectKeyTemplate instances from their
  * CDR-marshalled representation.

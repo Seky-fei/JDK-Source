@@ -25,8 +25,6 @@
 
 package com.sun.corba.se.pept.transport;
 
-import java.io.IOException;
-
 import com.sun.corba.se.pept.encoding.InputObject;
 import com.sun.corba.se.pept.encoding.OutputObject;
 import com.sun.corba.se.pept.protocol.MessageMediator;

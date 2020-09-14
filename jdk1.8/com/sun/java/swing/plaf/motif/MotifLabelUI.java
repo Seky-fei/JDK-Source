@@ -27,9 +27,8 @@ package com.sun.java.swing.plaf.motif;
 
 import sun.awt.AppContext;
 
-import javax.swing.*;
-import javax.swing.plaf.basic.BasicLabelUI;
 import javax.swing.plaf.ComponentUI;
+import javax.swing.plaf.basic.BasicLabelUI;
 
 /**
  * A Motif L&F implementation of LabelUI.

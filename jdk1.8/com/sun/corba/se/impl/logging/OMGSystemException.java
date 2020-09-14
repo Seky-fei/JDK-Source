@@ -5,40 +5,12 @@
 
 package com.sun.corba.se.impl.logging ;
 
-import java.util.logging.Logger ;
-import java.util.logging.Level ;
-
-import org.omg.CORBA.OMGVMCID ;
-import com.sun.corba.se.impl.util.SUNVMCID ;
-import org.omg.CORBA.CompletionStatus ;
-import org.omg.CORBA.SystemException ;
-
-import com.sun.corba.se.spi.orb.ORB ;
-
-import com.sun.corba.se.spi.logging.LogWrapperFactory;
-
 import com.sun.corba.se.spi.logging.LogWrapperBase;
+import com.sun.corba.se.spi.logging.LogWrapperFactory;
+import com.sun.corba.se.spi.orb.ORB;
 
-import org.omg.CORBA.BAD_CONTEXT ;
-import org.omg.CORBA.BAD_INV_ORDER ;
-import org.omg.CORBA.BAD_OPERATION ;
-import org.omg.CORBA.BAD_PARAM ;
-import org.omg.CORBA.BAD_TYPECODE ;
-import org.omg.CORBA.DATA_CONVERSION ;
-import org.omg.CORBA.IMP_LIMIT ;
-import org.omg.CORBA.INITIALIZE ;
-import org.omg.CORBA.INV_OBJREF ;
-import org.omg.CORBA.INV_POLICY ;
-import org.omg.CORBA.INTERNAL ;
-import org.omg.CORBA.INTF_REPOS ;
-import org.omg.CORBA.MARSHAL ;
-import org.omg.CORBA.NO_IMPLEMENT ;
-import org.omg.CORBA.NO_RESOURCES ;
-import org.omg.CORBA.TRANSACTION_ROLLEDBACK ;
-import org.omg.CORBA.TRANSIENT ;
-import org.omg.CORBA.OBJECT_NOT_EXIST ;
-import org.omg.CORBA.OBJ_ADAPTER ;
-import org.omg.CORBA.UNKNOWN ;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class OMGSystemException extends LogWrapperBase {
     

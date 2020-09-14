@@ -25,40 +25,28 @@
 
 package com.sun.imageio.plugins.png;
 
-import java.awt.Point;
-import java.awt.Rectangle;
+import com.sun.imageio.plugins.common.InputStreamAdapter;
+import com.sun.imageio.plugins.common.ReaderUtil;
+import com.sun.imageio.plugins.common.SubImageInputStream;
+import sun.awt.image.ByteInterleavedRaster;
+
+import javax.imageio.IIOException;
+import javax.imageio.ImageReadParam;
+import javax.imageio.ImageReader;
+import javax.imageio.ImageTypeSpecifier;
+import javax.imageio.metadata.IIOMetadata;
+import javax.imageio.spi.ImageReaderSpi;
+import javax.imageio.stream.ImageInputStream;
+import java.awt.*;
 import java.awt.color.ColorSpace;
-import java.awt.image.BufferedImage;
-import java.awt.image.DataBuffer;
-import java.awt.image.DataBufferByte;
-import java.awt.image.DataBufferUShort;
-import java.awt.image.Raster;
-import java.awt.image.WritableRaster;
-import java.io.BufferedInputStream;
-import java.io.ByteArrayInputStream;
-import java.io.DataInputStream;
-import java.io.EOFException;
-import java.io.InputStream;
-import java.io.IOException;
-import java.io.SequenceInputStream;
+import java.awt.image.*;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Enumeration;
 import java.util.Iterator;
 import java.util.zip.Inflater;
 import java.util.zip.InflaterInputStream;
-import javax.imageio.IIOException;
-import javax.imageio.ImageReader;
-import javax.imageio.ImageReadParam;
-import javax.imageio.ImageTypeSpecifier;
-import javax.imageio.metadata.IIOMetadata;
-import javax.imageio.spi.ImageReaderSpi;
-import javax.imageio.stream.ImageInputStream;
-import com.sun.imageio.plugins.common.InputStreamAdapter;
-import com.sun.imageio.plugins.common.ReaderUtil;
-import com.sun.imageio.plugins.common.SubImageInputStream;
-import java.io.ByteArrayOutputStream;
-import sun.awt.image.ByteInterleavedRaster;
 
 class PNGImageDataEnumeration implements Enumeration<InputStream> {
 

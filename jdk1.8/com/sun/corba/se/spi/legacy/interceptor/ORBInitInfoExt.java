@@ -25,7 +25,7 @@
 
 package com.sun.corba.se.spi.legacy.interceptor;
 
-import com.sun.corba.se.spi.orb.ORB ;
+import com.sun.corba.se.spi.orb.ORB;
 
 /** The interface defines an extension to the standard ORBInitInfo
  * that gives access to the ORB being initialized.  Interceptors run

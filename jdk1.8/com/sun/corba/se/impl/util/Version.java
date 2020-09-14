@@ -30,8 +30,6 @@
  */
 
 package com.sun.corba.se.impl.util;
-import java.util.Date;
-
 public class Version {
 
     public static final String  PROJECT_NAME = "RMI-IIOP";

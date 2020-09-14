@@ -25,12 +25,11 @@
 
 package com.sun.corba.se.impl.ior;
 
-import java.util.Arrays ;
-
+import com.sun.corba.se.spi.ior.Identifiable;
 import org.omg.CORBA_2_3.portable.InputStream;
 import org.omg.CORBA_2_3.portable.OutputStream;
 
-import com.sun.corba.se.spi.ior.Identifiable ;
+import java.util.Arrays;
 
 /**
  * @author

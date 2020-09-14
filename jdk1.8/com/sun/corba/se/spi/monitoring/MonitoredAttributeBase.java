@@ -24,8 +24,6 @@
  */
 package com.sun.corba.se.spi.monitoring;
 
-import java.util.*;
-
 /**
  * <p>
  *

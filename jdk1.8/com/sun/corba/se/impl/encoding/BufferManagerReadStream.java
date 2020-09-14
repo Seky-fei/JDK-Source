@@ -24,16 +24,16 @@
  */
 package com.sun.corba.se.impl.encoding;
 
-import java.nio.ByteBuffer;
-import com.sun.corba.se.pept.transport.ByteBufferPool;
-import com.sun.corba.se.spi.logging.CORBALogDomains;
-import com.sun.corba.se.spi.orb.ORB;
 import com.sun.corba.se.impl.logging.ORBUtilSystemException;
 import com.sun.corba.se.impl.orbutil.ORBUtility;
 import com.sun.corba.se.impl.protocol.RequestCanceledException;
 import com.sun.corba.se.impl.protocol.giopmsgheaders.FragmentMessage;
 import com.sun.corba.se.impl.protocol.giopmsgheaders.Message;
-import java.util.*;
+import com.sun.corba.se.pept.transport.ByteBufferPool;
+import com.sun.corba.se.spi.logging.CORBALogDomains;
+import com.sun.corba.se.spi.orb.ORB;
+
+import java.nio.ByteBuffer;
 
 public class BufferManagerReadStream
     implements BufferManagerRead, MarkAndResetHandler

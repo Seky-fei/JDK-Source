@@ -24,9 +24,7 @@
  */
 package com.sun.corba.se.spi.orb ;
 
-import java.applet.Applet ;
-import java.util.Properties ;
-import java.util.Vector ;
+import java.util.Properties;
 
 /** Interface for collecting all sources of ORB configuration properties
  * into a single properties object.   A PropertyParser is needed so that

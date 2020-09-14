@@ -25,8 +25,6 @@
 
 package java.awt.dnd;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.datatransfer.FlavorMap;
 import java.awt.datatransfer.SystemFlavorMap;
 import java.awt.dnd.peer.DropTargetPeer;

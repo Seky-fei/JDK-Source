@@ -31,38 +31,20 @@
 
 package com.sun.corba.se.impl.io;
 
-import org.omg.CORBA.INTERNAL;
+import com.sun.corba.se.impl.io.ObjectStreamClass;
+import com.sun.corba.se.impl.logging.UtilSystemException;
+import com.sun.corba.se.impl.util.RepositoryId;
+import com.sun.corba.se.impl.util.Utility;
+import com.sun.corba.se.spi.logging.CORBALogDomains;
 import org.omg.CORBA.portable.OutputStream;
-
-import java.security.AccessController ;
-import java.security.PrivilegedAction ;
-
-import java.io.IOException;
-import java.io.DataOutputStream;
-import java.io.Serializable;
-import java.io.InvalidClassException;
-import java.io.StreamCorruptedException;
-import java.io.Externalizable;
-import java.io.ObjectStreamException;
-import java.io.NotSerializableException;
-import java.io.NotActiveException;
-
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Field;
-
-import java.util.Stack;
+import sun.corba.Bridge;
 
 import javax.rmi.CORBA.Util;
-import javax.rmi.CORBA.ValueHandlerMultiFormat;
-
-import sun.corba.Bridge ;
-
-import com.sun.corba.se.impl.io.ObjectStreamClass;
-import com.sun.corba.se.impl.util.Utility;
-import com.sun.corba.se.impl.util.RepositoryId;
-
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
-import com.sun.corba.se.impl.logging.UtilSystemException ;
+import java.io.*;
+import java.lang.reflect.InvocationTargetException;
+import java.security.AccessController;
+import java.security.PrivilegedAction;
+import java.util.Stack;
 
 /**
  * IIOPOutputStream is ...

@@ -25,11 +25,11 @@
 
 package com.sun.corba.se.impl.orb ;
 
-import java.applet.Applet ;
-import java.util.Properties ;
-import java.net.URL ;
+import com.sun.corba.se.spi.orb.DataCollector;
 
-import com.sun.corba.se.spi.orb.DataCollector ;
+import java.applet.Applet;
+import java.net.URL;
+import java.util.Properties;
 
 public abstract class DataCollectorFactory {
     private DataCollectorFactory() {}

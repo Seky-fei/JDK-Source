@@ -25,16 +25,13 @@
 
 package com.sun.java.swing.plaf.windows;
 
-import java.awt.*;
-import java.awt.event.MouseEvent;
-
-import javax.swing.plaf.ComponentUI;
-import javax.swing.plaf.basic.BasicMenuUI;
-import javax.swing.event.MouseInputListener;
-import javax.swing.*;
-
 import com.sun.java.swing.plaf.windows.TMSchema.Part;
 import com.sun.java.swing.plaf.windows.TMSchema.State;
+
+import javax.swing.event.MouseInputListener;
+import javax.swing.plaf.ComponentUI;
+import javax.swing.plaf.basic.BasicMenuUI;
+import java.awt.event.MouseEvent;
 
 /**
  * Windows rendition of the component.

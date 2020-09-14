@@ -25,9 +25,9 @@
 
 package com.sun.imageio.plugins.common;
 
-import java.io.IOException;
-import javax.imageio.stream.ImageInputStreamImpl;
 import javax.imageio.stream.ImageInputStream;
+import javax.imageio.stream.ImageInputStreamImpl;
+import java.io.IOException;
 
 public final class SubImageInputStream extends ImageInputStreamImpl {
 

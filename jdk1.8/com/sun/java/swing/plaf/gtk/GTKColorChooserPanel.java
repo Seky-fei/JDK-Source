@@ -24,14 +24,6 @@
  */
 package com.sun.java.swing.plaf.gtk;
 
-import java.awt.*;
-import java.awt.event.*;
-import java.awt.image.*;
-import javax.swing.*;
-import javax.swing.colorchooser.*;
-import javax.swing.event.*;
-import javax.swing.plaf.*;
-
 /**
  * A color chooser panel mimicking that of GTK's: a color wheel showing
  * hue and a triangle that varies saturation and brightness.

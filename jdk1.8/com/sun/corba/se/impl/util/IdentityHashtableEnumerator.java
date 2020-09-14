@@ -32,7 +32,6 @@
 
 package com.sun.corba.se.impl.util;
 
-import java.util.Dictionary;
 import java.util.Enumeration;
 import java.util.NoSuchElementException;
 

@@ -25,12 +25,11 @@
 
 package com.sun.corba.se.spi.presentation.rmi ;
 
-import java.rmi.RemoteException ;
+import org.omg.CORBA.ORB;
+import org.omg.CORBA.portable.Delegate;
+import org.omg.CORBA.portable.OutputStream;
 
-import org.omg.CORBA.portable.Delegate ;
-import org.omg.CORBA.portable.OutputStream ;
-
-import org.omg.CORBA.ORB ;
+import java.rmi.RemoteException;
 
 /** Interface used to support dynamically generated stubs.
  * This supplies some methods that are found in

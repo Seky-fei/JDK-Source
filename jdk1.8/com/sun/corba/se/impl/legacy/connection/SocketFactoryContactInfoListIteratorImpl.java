@@ -25,19 +25,16 @@
 
 package com.sun.corba.se.impl.legacy.connection;
 
-import org.omg.CORBA.CompletionStatus;
-import org.omg.CORBA.SystemException;
-
+import com.sun.corba.se.impl.transport.CorbaContactInfoListIteratorImpl;
+import com.sun.corba.se.impl.transport.SharedCDRContactInfoImpl;
 import com.sun.corba.se.pept.transport.ContactInfo;
-
 import com.sun.corba.se.spi.legacy.connection.GetEndPointInfoAgainException;
 import com.sun.corba.se.spi.orb.ORB;
 import com.sun.corba.se.spi.transport.CorbaContactInfo;
 import com.sun.corba.se.spi.transport.CorbaContactInfoList;
 import com.sun.corba.se.spi.transport.SocketInfo;
-
-import com.sun.corba.se.impl.transport.CorbaContactInfoListIteratorImpl;
-import com.sun.corba.se.impl.transport.SharedCDRContactInfoImpl;
+import org.omg.CORBA.CompletionStatus;
+import org.omg.CORBA.SystemException;
 
 public class SocketFactoryContactInfoListIteratorImpl
     extends CorbaContactInfoListIteratorImpl

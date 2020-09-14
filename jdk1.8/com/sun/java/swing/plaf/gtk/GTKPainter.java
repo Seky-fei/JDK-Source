@@ -24,20 +24,11 @@
  */
 package com.sun.java.swing.plaf.gtk;
 
-import sun.awt.UNIXToolkit;
-
+import com.sun.java.swing.plaf.gtk.GTKConstants.*;
 import sun.awt.ModalExclude;
 import sun.awt.SunToolkit;
-import javax.swing.plaf.synth.*;
-import java.awt.*;
-import javax.swing.*;
-import javax.swing.border.*;
-import javax.swing.plaf.*;
-import com.sun.java.swing.plaf.gtk.GTKConstants.ArrowType;
-import com.sun.java.swing.plaf.gtk.GTKConstants.ExpanderStyle;
-import com.sun.java.swing.plaf.gtk.GTKConstants.Orientation;
-import com.sun.java.swing.plaf.gtk.GTKConstants.PositionType;
-import com.sun.java.swing.plaf.gtk.GTKConstants.ShadowType;
+import sun.awt.UNIXToolkit;
+
 import java.awt.image.BufferedImage;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

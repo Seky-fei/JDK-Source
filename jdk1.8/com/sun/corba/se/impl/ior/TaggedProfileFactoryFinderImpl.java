@@ -25,13 +25,10 @@
 
 package com.sun.corba.se.impl.ior;
 
-import com.sun.corba.se.spi.ior.Identifiable ;
-
-import com.sun.corba.se.spi.orb.ORB ;
-
-import com.sun.corba.se.impl.ior.IdentifiableFactoryFinderBase ;
-
-import org.omg.CORBA_2_3.portable.InputStream ;
+import com.sun.corba.se.impl.ior.IdentifiableFactoryFinderBase;
+import com.sun.corba.se.spi.ior.Identifiable;
+import com.sun.corba.se.spi.orb.ORB;
+import org.omg.CORBA_2_3.portable.InputStream;
 
 /**
  * @author

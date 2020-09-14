@@ -25,38 +25,20 @@
 
 package com.sun.corba.se.impl.interceptors;
 
-import java.io.IOException;
-
+import com.sun.corba.se.impl.corba.RequestImpl;
+import com.sun.corba.se.impl.protocol.giopmsgheaders.ReplyMessage;
+import com.sun.corba.se.spi.ior.ObjectKeyTemplate;
+import com.sun.corba.se.spi.oa.ObjectAdapter;
+import com.sun.corba.se.spi.protocol.CorbaMessageMediator;
+import com.sun.corba.se.spi.protocol.PIHandler;
 import org.omg.CORBA.Any;
 import org.omg.CORBA.NVList;
-
-import org.omg.IOP.CodecFactory;
-
 import org.omg.CORBA.portable.RemarshalException;
-
-import org.omg.PortableInterceptor.ObjectReferenceTemplate ;
-import org.omg.PortableInterceptor.ForwardRequest;
-import org.omg.PortableInterceptor.Interceptor;
-import org.omg.PortableInterceptor.PolicyFactory;
 import org.omg.PortableInterceptor.Current;
-
-import org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName ;
-
-import com.sun.corba.se.pept.encoding.OutputObject;
-
-import com.sun.corba.se.spi.ior.ObjectKeyTemplate;
-
-import com.sun.corba.se.spi.oa.ObjectAdapter;
-
-import com.sun.corba.se.spi.orb.ORB;
-
-import com.sun.corba.se.spi.protocol.PIHandler;
-import com.sun.corba.se.spi.protocol.ForwardException;
-import com.sun.corba.se.spi.protocol.CorbaMessageMediator;
-
-import com.sun.corba.se.impl.corba.RequestImpl;
-
-import com.sun.corba.se.impl.protocol.giopmsgheaders.ReplyMessage;
+import org.omg.PortableInterceptor.Interceptor;
+import org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName;
+import org.omg.PortableInterceptor.ObjectReferenceTemplate;
+import org.omg.PortableInterceptor.PolicyFactory;
 
 /**
  * This is No-Op implementation of PIHandler. It is used in ORBConfigurator

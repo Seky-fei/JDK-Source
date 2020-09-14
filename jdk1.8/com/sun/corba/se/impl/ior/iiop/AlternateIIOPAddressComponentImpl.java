@@ -25,14 +25,11 @@
 
 package com.sun.corba.se.impl.ior.iiop;
 
-import org.omg.CORBA_2_3.portable.OutputStream ;
-
-import com.sun.corba.se.spi.ior.TaggedComponentBase ;
-
-import com.sun.corba.se.spi.ior.iiop.IIOPAddress ;
-import com.sun.corba.se.spi.ior.iiop.AlternateIIOPAddressComponent ;
-
-import org.omg.IOP.TAG_ALTERNATE_IIOP_ADDRESS ;
+import com.sun.corba.se.spi.ior.TaggedComponentBase;
+import com.sun.corba.se.spi.ior.iiop.AlternateIIOPAddressComponent;
+import com.sun.corba.se.spi.ior.iiop.IIOPAddress;
+import org.omg.CORBA_2_3.portable.OutputStream;
+import org.omg.IOP.TAG_ALTERNATE_IIOP_ADDRESS;
 
 /**
  * @author Ken Cavanaugh

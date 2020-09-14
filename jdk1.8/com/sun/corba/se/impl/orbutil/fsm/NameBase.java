@@ -25,12 +25,12 @@
 
 package com.sun.corba.se.impl.orbutil.fsm ;
 
-import com.sun.corba.se.spi.orbutil.fsm.Action ;
-import com.sun.corba.se.spi.orbutil.fsm.State ;
-import com.sun.corba.se.spi.orbutil.fsm.Guard ;
-import com.sun.corba.se.spi.orbutil.fsm.Input ;
+import com.sun.corba.se.spi.orbutil.fsm.Action;
+import com.sun.corba.se.spi.orbutil.fsm.Guard;
+import com.sun.corba.se.spi.orbutil.fsm.Input;
+import com.sun.corba.se.spi.orbutil.fsm.State;
 
-import java.util.StringTokenizer ;
+import java.util.StringTokenizer;
 
 public class NameBase {
     private String name ;

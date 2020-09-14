@@ -26,29 +26,19 @@
 package com.sun.corba.se.impl.naming.cosnaming;
 
 // Import general CORBA classes
-import org.omg.CORBA.SystemException;
-import org.omg.CORBA.Object;
-import org.omg.CORBA.INTERNAL;
-import org.omg.CORBA.CompletionStatus;
+import com.sun.corba.se.impl.logging.NamingSystemException;
+import com.sun.corba.se.impl.orbutil.LogKeywords;
+import com.sun.corba.se.spi.logging.CORBALogDomains;
 import org.omg.CORBA.ORB;
+import org.omg.CORBA.Object;
+import org.omg.CORBA.SystemException;
 import org.omg.PortableServer.POA;
 
-// Import org.omg.CosNaming types
-import org.omg.CosNaming.Binding;
-import org.omg.CosNaming.BindingType;
-import org.omg.CosNaming.BindingTypeHolder;
-import org.omg.CosNaming.BindingListHolder;
-import org.omg.CosNaming.BindingIteratorHolder;
-import org.omg.CosNaming.NameComponent;
-import org.omg.CosNaming.NamingContext;
-
-import java.util.logging.Logger;
-import java.util.logging.Level;
-
 import java.util.Hashtable;
-import com.sun.corba.se.impl.orbutil.LogKeywords;
-import com.sun.corba.se.impl.logging.NamingSystemException;
-import com.sun.corba.se.spi.logging.CORBALogDomains;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+// Import org.omg.CosNaming types
 
 /**
  * Class TransientNamingContext implements the methods defined

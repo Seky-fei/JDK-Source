@@ -25,19 +25,19 @@
 
 package com.sun.corba.se.spi.transport ;
 
-import com.sun.corba.se.spi.protocol.CorbaClientDelegate ;
-import com.sun.corba.se.spi.protocol.ClientDelegateFactory ;
-import com.sun.corba.se.spi.transport.CorbaContactInfoList ;
-import com.sun.corba.se.spi.transport.CorbaContactInfoListFactory ;
-import com.sun.corba.se.spi.transport.ReadTimeouts;
-import com.sun.corba.se.spi.transport.ReadTimeoutsFactory;
-import com.sun.corba.se.spi.orb.ORB ;
-import com.sun.corba.se.spi.ior.IOR ;
-
-// Internal imports, not used in the interface to this package
-import com.sun.corba.se.impl.protocol.CorbaClientDelegateImpl ;
+import com.sun.corba.se.impl.protocol.CorbaClientDelegateImpl;
 import com.sun.corba.se.impl.transport.CorbaContactInfoListImpl;
 import com.sun.corba.se.impl.transport.ReadTCPTimeoutsImpl;
+import com.sun.corba.se.spi.ior.IOR;
+import com.sun.corba.se.spi.orb.ORB;
+import com.sun.corba.se.spi.protocol.ClientDelegateFactory;
+import com.sun.corba.se.spi.protocol.CorbaClientDelegate;
+import com.sun.corba.se.spi.transport.CorbaContactInfoList;
+import com.sun.corba.se.spi.transport.CorbaContactInfoListFactory;
+import com.sun.corba.se.spi.transport.ReadTimeouts;
+import com.sun.corba.se.spi.transport.ReadTimeoutsFactory;
+
+// Internal imports, not used in the interface to this package
 
 /** This class provices standard building blocks for the ORB, as do all Default classes
  * in the various packages.

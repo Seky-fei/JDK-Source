@@ -25,25 +25,19 @@
 
 package com.sun.corba.se.impl.presentation.rmi ;
 
-import java.io.Serializable ;
-import java.io.Externalizable ;
+import com.sun.corba.se.spi.orb.ORB;
+import com.sun.corba.se.spi.presentation.rmi.DynamicMethodMarshaller;
+import org.omg.CORBA.portable.ApplicationException;
+import org.omg.CORBA.portable.IDLEntity;
+import org.omg.CORBA_2_3.portable.InputStream;
+import org.omg.CORBA_2_3.portable.OutputStream;
 
-import javax.rmi.PortableRemoteObject ;
-import javax.rmi.CORBA.Util ;
-
-import org.omg.CORBA.portable.IDLEntity ;
-
-import org.omg.CORBA_2_3.portable.InputStream ;
-import org.omg.CORBA_2_3.portable.OutputStream ;
-import org.omg.CORBA.portable.ApplicationException ;
-
-import java.lang.reflect.Method ;
-
-import java.rmi.RemoteException ;
-
-import com.sun.corba.se.spi.orb.ORB ;
-
-import com.sun.corba.se.spi.presentation.rmi.DynamicMethodMarshaller ;
+import javax.rmi.CORBA.Util;
+import javax.rmi.PortableRemoteObject;
+import java.io.Externalizable;
+import java.io.Serializable;
+import java.lang.reflect.Method;
+import java.rmi.RemoteException;
 
 public class DynamicMethodMarshallerImpl implements DynamicMethodMarshaller
 {

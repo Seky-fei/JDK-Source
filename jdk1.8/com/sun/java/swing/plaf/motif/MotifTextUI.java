@@ -24,13 +24,6 @@
  */
 package com.sun.java.swing.plaf.motif;
 
-import java.awt.*;
-import java.awt.event.*;
-
-import javax.swing.*;
-import javax.swing.text.*;
-import javax.swing.plaf.*;
-
 /**
  * Provides the look and feel features that are common across
  * the Motif/CDE text LAF implementations.

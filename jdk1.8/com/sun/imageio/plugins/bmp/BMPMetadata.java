@@ -25,19 +25,15 @@
 
 package com.sun.imageio.plugins.bmp;
 
-import java.io.UnsupportedEncodingException;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import javax.imageio.ImageTypeSpecifier;
-import javax.imageio.metadata.IIOMetadata;
-import javax.imageio.metadata.IIOMetadataNode;
-import javax.imageio.metadata.IIOMetadataFormat;
-import javax.imageio.metadata.IIOMetadataFormatImpl;
-import org.w3c.dom.Node;
 import com.sun.imageio.plugins.common.I18N;
-
 import com.sun.imageio.plugins.common.ImageUtil;
+import org.w3c.dom.Node;
+
+import javax.imageio.metadata.IIOMetadata;
+import javax.imageio.metadata.IIOMetadataFormatImpl;
+import javax.imageio.metadata.IIOMetadataNode;
+import java.io.UnsupportedEncodingException;
+import java.util.List;
 
 public class BMPMetadata extends IIOMetadata implements BMPConstants {
     public static final String nativeMetadataFormatName =

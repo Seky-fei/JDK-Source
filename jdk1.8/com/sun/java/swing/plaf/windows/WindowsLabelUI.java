@@ -25,19 +25,13 @@
 
 package com.sun.java.swing.plaf.windows;
 
-import sun.swing.SwingUtilities2;
 import sun.awt.AppContext;
+import sun.swing.SwingUtilities2;
 
-import java.awt.Color;
-import java.awt.Graphics;
-
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.UIManager;
-
+import javax.swing.*;
 import javax.swing.plaf.ComponentUI;
-
 import javax.swing.plaf.basic.BasicLabelUI;
+import java.awt.*;
 
 
 

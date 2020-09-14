@@ -27,12 +27,6 @@ package com.sun.java.swing.plaf.windows;
 
 import sun.awt.AppContext;
 
-import javax.swing.plaf.basic.*;
-import javax.swing.*;
-import javax.swing.plaf.*;
-
-import java.awt.*;
-
 /**
  * Windows check box.
  * <p>

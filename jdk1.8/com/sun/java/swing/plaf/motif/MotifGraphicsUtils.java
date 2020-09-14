@@ -26,20 +26,9 @@ package com.sun.java.swing.plaf.motif;
 
 import sun.swing.SwingUtilities2;
 
-import javax.swing.*;
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.Rectangle;
-import java.awt.Component;
-import java.awt.Insets;
-import java.awt.event.KeyEvent;
-import java.awt.Container;
-
-import javax.swing.plaf.basic.*;
 import javax.swing.text.View;
+import java.awt.*;
+import java.awt.event.KeyEvent;
 
 /*
  * @author Jeff Dinkins

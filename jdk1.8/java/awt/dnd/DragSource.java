@@ -28,7 +28,6 @@ package java.awt.dnd;
 import sun.awt.dnd.SunDragSourceContextPeer;
 import sun.security.action.GetIntegerAction;
 
-import java.awt.*;
 import java.awt.datatransfer.FlavorMap;
 import java.awt.datatransfer.SystemFlavorMap;
 import java.awt.datatransfer.Transferable;

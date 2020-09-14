@@ -26,14 +26,8 @@
 
 package com.sun.java.swing.plaf.windows;
 
-import javax.swing.DefaultDesktopManager;
-import javax.swing.JInternalFrame;
-import javax.swing.JLayeredPane;
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.Dimension;
+import javax.swing.*;
 import java.beans.PropertyVetoException;
-import java.util.Vector;
 import java.lang.ref.WeakReference;
 
 /**

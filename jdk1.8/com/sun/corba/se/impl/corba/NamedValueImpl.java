@@ -31,10 +31,9 @@
 
 package com.sun.corba.se.impl.corba;
 
-import org.omg.CORBA.NamedValue;
+import com.sun.corba.se.spi.orb.ORB;
 import org.omg.CORBA.Any;
-
-import com.sun.corba.se.spi.orb.ORB ;
+import org.omg.CORBA.NamedValue;
 
 public class NamedValueImpl extends NamedValue
 {

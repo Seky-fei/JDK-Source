@@ -25,8 +25,7 @@
 
 package com.sun.corba.se.spi.ior;
 
-import org.omg.CORBA_2_3.portable.OutputStream ;
-import org.omg.CORBA.ORB ;
+import org.omg.CORBA.ORB;
 
 /** Generic interface for all tagged components.  Users of the ORB may
 * create implementations of this class and also corresponding factories

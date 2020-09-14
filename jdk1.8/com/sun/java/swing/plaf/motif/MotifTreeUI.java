@@ -25,17 +25,6 @@
 
 package com.sun.java.swing.plaf.motif;
 
-import java.awt.*;
-import java.awt.event.*;
-
-import java.io.*;
-import java.util.*;
-
-import javax.swing.*;
-import javax.swing.plaf.*;
-import javax.swing.tree.*;
-import javax.swing.plaf.basic.*;
-
 /**
  * Motif rendition of the tree component.
  * <p>

@@ -25,39 +25,30 @@
 
 package com.sun.imageio.plugins.jpeg;
 
-import javax.imageio.IIOException;
-import javax.imageio.ImageReader;
-import javax.imageio.ImageReadParam;
-import javax.imageio.ImageTypeSpecifier;
-import javax.imageio.metadata.IIOMetadata;
-import javax.imageio.spi.ImageReaderSpi;
-import javax.imageio.stream.ImageInputStream;
-import javax.imageio.plugins.jpeg.JPEGImageReadParam;
-import javax.imageio.plugins.jpeg.JPEGQTable;
-import javax.imageio.plugins.jpeg.JPEGHuffmanTable;
-
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.color.ColorSpace;
-import java.awt.color.ICC_Profile;
-import java.awt.color.ICC_ColorSpace;
-import java.awt.color.CMMException;
-import java.awt.image.BufferedImage;
-import java.awt.image.Raster;
-import java.awt.image.WritableRaster;
-import java.awt.image.DataBuffer;
-import java.awt.image.DataBufferByte;
-import java.awt.image.ColorModel;
-import java.awt.image.IndexColorModel;
-import java.awt.image.ColorConvertOp;
-import java.io.IOException;
-import java.util.List;
-import java.util.Iterator;
-import java.util.ArrayList;
-import java.util.NoSuchElementException;
-
 import sun.java2d.Disposer;
 import sun.java2d.DisposerRecord;
+
+import javax.imageio.IIOException;
+import javax.imageio.ImageReadParam;
+import javax.imageio.ImageReader;
+import javax.imageio.ImageTypeSpecifier;
+import javax.imageio.metadata.IIOMetadata;
+import javax.imageio.plugins.jpeg.JPEGHuffmanTable;
+import javax.imageio.plugins.jpeg.JPEGImageReadParam;
+import javax.imageio.plugins.jpeg.JPEGQTable;
+import javax.imageio.spi.ImageReaderSpi;
+import javax.imageio.stream.ImageInputStream;
+import java.awt.*;
+import java.awt.color.CMMException;
+import java.awt.color.ColorSpace;
+import java.awt.color.ICC_ColorSpace;
+import java.awt.color.ICC_Profile;
+import java.awt.image.*;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.NoSuchElementException;
 
 public class JPEGImageReader extends ImageReader {
 

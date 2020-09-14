@@ -25,9 +25,8 @@
 
 package com.sun.corba.se.spi.ior;
 
-import com.sun.corba.se.spi.protocol.CorbaServerRequestDispatcher ;
-
-import com.sun.corba.se.spi.orb.ORB ;
+import com.sun.corba.se.spi.orb.ORB;
+import com.sun.corba.se.spi.protocol.CorbaServerRequestDispatcher;
 
 /** The full object key, which is contained in an IIOPProfile.
 * The object identifier corresponds to the information passed into

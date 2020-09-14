@@ -25,8 +25,9 @@
 
 package com.sun.corba.se.impl.orbutil;
 
-import java.io.Serializable;
 import com.sun.corba.se.impl.io.TypeMismatchException;
+
+import java.io.Serializable;
 
 /**
  * Factory methods for creating various repository ID strings

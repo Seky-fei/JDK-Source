@@ -25,14 +25,13 @@
 
 package com.sun.imageio.plugins.bmp;
 
-import java.util.Locale;
-import javax.imageio.spi.ImageReaderSpi;
-import javax.imageio.stream.ImageInputStream;
-import javax.imageio.spi.IIORegistry;
-import javax.imageio.spi.ServiceRegistry;
-import java.io.IOException;
-import javax.imageio.ImageReader;
 import javax.imageio.IIOException;
+import javax.imageio.ImageReader;
+import javax.imageio.spi.ImageReaderSpi;
+import javax.imageio.spi.ServiceRegistry;
+import javax.imageio.stream.ImageInputStream;
+import java.io.IOException;
+import java.util.Locale;
 
 public class BMPImageReaderSpi extends ImageReaderSpi {
 

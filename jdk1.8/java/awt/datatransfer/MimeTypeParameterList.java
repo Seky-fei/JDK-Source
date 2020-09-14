@@ -25,9 +25,6 @@
 
 package java.awt.datatransfer;
 
-import java.util.*;
-
-
 /**
  * An object that encapsulates the parameter list of a MimeType
  * as defined in RFC 2045 and 2046.

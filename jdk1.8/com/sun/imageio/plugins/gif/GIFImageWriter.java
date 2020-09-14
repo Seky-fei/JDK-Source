@@ -25,37 +25,25 @@
 
 package com.sun.imageio.plugins.gif;
 
-import java.awt.Dimension;
-import java.awt.Rectangle;
-import java.awt.image.ColorModel;
-import java.awt.image.ComponentSampleModel;
-import java.awt.image.DataBufferByte;
-import java.awt.image.IndexColorModel;
-import java.awt.image.Raster;
-import java.awt.image.RenderedImage;
-import java.awt.image.SampleModel;
-import java.awt.image.WritableRaster;
-import java.io.IOException;
-import java.nio.ByteOrder;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.Locale;
-import javax.imageio.IIOException;
-import javax.imageio.IIOImage;
-import javax.imageio.ImageTypeSpecifier;
-import javax.imageio.ImageWriteParam;
-import javax.imageio.ImageWriter;
-import javax.imageio.spi.ImageWriterSpi;
+import com.sun.imageio.plugins.common.LZWCompressor;
+import com.sun.imageio.plugins.common.PaletteBuilder;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import sun.awt.image.ByteComponentRaster;
+
+import javax.imageio.*;
 import javax.imageio.metadata.IIOInvalidTreeException;
 import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
 import javax.imageio.metadata.IIOMetadataNode;
 import javax.imageio.stream.ImageOutputStream;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import com.sun.imageio.plugins.common.LZWCompressor;
-import com.sun.imageio.plugins.common.PaletteBuilder;
-import sun.awt.image.ByteComponentRaster;
+import java.awt.*;
+import java.awt.image.*;
+import java.io.IOException;
+import java.nio.ByteOrder;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.Locale;
 
 public class GIFImageWriter extends ImageWriter {
     private static final boolean DEBUG = false; // XXX false for release!

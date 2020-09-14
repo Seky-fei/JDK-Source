@@ -25,27 +25,23 @@
 
 package com.sun.corba.se.impl.transport;
 
-import java.util.Iterator;
-import java.util.List;
-
-import org.omg.CORBA.COMM_FAILURE;
-import org.omg.CORBA.CompletionStatus;
-import org.omg.CORBA.INTERNAL;
-import org.omg.CORBA.SystemException;
-
-import com.sun.corba.se.pept.transport.ContactInfo ;
-import com.sun.corba.se.pept.transport.ContactInfoList ;
-
-import com.sun.corba.se.spi.ior.IOR ;
+import com.sun.corba.se.impl.logging.ORBUtilSystemException;
+import com.sun.corba.se.impl.protocol.CorbaInvocationInfo;
+import com.sun.corba.se.pept.transport.ContactInfo;
+import com.sun.corba.se.pept.transport.ContactInfoList;
+import com.sun.corba.se.spi.ior.IOR;
 import com.sun.corba.se.spi.logging.CORBALogDomains;
-import com.sun.corba.se.spi.orb.ORB ;
+import com.sun.corba.se.spi.orb.ORB;
 import com.sun.corba.se.spi.transport.CorbaContactInfo;
 import com.sun.corba.se.spi.transport.CorbaContactInfoList;
 import com.sun.corba.se.spi.transport.CorbaContactInfoListIterator;
 import com.sun.corba.se.spi.transport.IIOPPrimaryToContactInfo;
+import org.omg.CORBA.COMM_FAILURE;
+import org.omg.CORBA.CompletionStatus;
+import org.omg.CORBA.SystemException;
 
-import com.sun.corba.se.impl.logging.ORBUtilSystemException;
-import com.sun.corba.se.impl.protocol.CorbaInvocationInfo;
+import java.util.Iterator;
+import java.util.List;
 
 // REVISIT: create a unit test for this class.
 

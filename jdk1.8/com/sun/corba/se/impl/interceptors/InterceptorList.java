@@ -25,20 +25,15 @@
 
 package com.sun.corba.se.impl.interceptors;
 
+import com.sun.corba.se.impl.logging.InterceptorsSystemException;
 import org.omg.PortableInterceptor.Interceptor;
-import org.omg.PortableInterceptor.ORBInitInfo;
 import org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName;
 
-import org.omg.CORBA.INTERNAL;
-
+import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
-import java.lang.reflect.Array;
-
-import com.sun.corba.se.impl.logging.InterceptorsSystemException ;
 
 /**
  * Provides a repository of registered Portable Interceptors, organized

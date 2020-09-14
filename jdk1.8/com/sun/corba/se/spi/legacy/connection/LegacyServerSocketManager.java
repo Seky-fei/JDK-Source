@@ -25,10 +25,7 @@
 
 package com.sun.corba.se.spi.legacy.connection;
 
-import java.util.Collection;
-
 import com.sun.corba.se.spi.legacy.connection.LegacyServerSocketEndPointInfo;
-import com.sun.corba.se.spi.transport.SocketOrChannelAcceptor;
 
 /**
  * @author Harold Carr

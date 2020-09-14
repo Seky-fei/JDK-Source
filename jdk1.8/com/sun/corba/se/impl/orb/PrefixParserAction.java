@@ -25,21 +25,16 @@
 
 package com.sun.corba.se.impl.orb ;
 
-import org.omg.CORBA.INITIALIZE ;
+import com.sun.corba.se.impl.logging.ORBUtilSystemException;
+import com.sun.corba.se.spi.logging.CORBALogDomains;
+import com.sun.corba.se.spi.orb.Operation;
+import com.sun.corba.se.spi.orb.StringPair;
 
-import java.util.Properties ;
-import java.util.List ;
-import java.util.LinkedList ;
-import java.util.Iterator ;
-
-import java.lang.reflect.Array ;
-
-import com.sun.corba.se.spi.orb.Operation ;
-import com.sun.corba.se.spi.orb.StringPair ;
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
-
-import com.sun.corba.se.impl.orbutil.ObjectUtility ;
-import com.sun.corba.se.impl.logging.ORBUtilSystemException ;
+import java.lang.reflect.Array;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Properties;
 
 public class PrefixParserAction extends ParserActionBase {
     private Class componentType ;

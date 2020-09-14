@@ -24,9 +24,8 @@
  */
 package com.sun.java.swing.plaf.windows;
 
-import javax.swing.JWindow;
-import java.awt.Window;
-import java.awt.Graphics;
+import javax.swing.*;
+import java.awt.*;
 
 /**
  * A class which tags a window with a particular semantic usage,

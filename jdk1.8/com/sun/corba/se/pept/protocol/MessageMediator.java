@@ -31,8 +31,6 @@ import com.sun.corba.se.pept.encoding.OutputObject;
 import com.sun.corba.se.pept.transport.Connection;
 import com.sun.corba.se.pept.transport.ContactInfo;
 
-import java.io.IOException;
-
 /**
  * <code>MessageMediator</code> is a central repository for artifacts
  * associated with an individual message.

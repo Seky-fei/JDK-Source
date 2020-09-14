@@ -25,40 +25,30 @@
 
 package com.sun.imageio.plugins.jpeg;
 
+import org.w3c.dom.NamedNodeMap;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
 import javax.imageio.IIOException;
 import javax.imageio.IIOImage;
-import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.ImageReader;
+import javax.imageio.ImageTypeSpecifier;
+import javax.imageio.event.IIOReadProgressListener;
 import javax.imageio.metadata.IIOInvalidTreeException;
 import javax.imageio.metadata.IIOMetadataNode;
-import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.stream.ImageInputStream;
 import javax.imageio.stream.ImageOutputStream;
 import javax.imageio.stream.MemoryCacheImageOutputStream;
-import javax.imageio.event.IIOReadProgressListener;
-
-import java.awt.Graphics;
-import java.awt.color.ICC_Profile;
-import java.awt.color.ICC_ColorSpace;
+import java.awt.*;
 import java.awt.color.ColorSpace;
-import java.awt.image.ColorModel;
-import java.awt.image.SampleModel;
-import java.awt.image.IndexColorModel;
-import java.awt.image.ComponentColorModel;
-import java.awt.image.BufferedImage;
-import java.awt.image.DataBuffer;
-import java.awt.image.DataBufferByte;
-import java.awt.image.Raster;
-import java.awt.image.WritableRaster;
-import java.io.IOException;
+import java.awt.color.ICC_ColorSpace;
+import java.awt.color.ICC_Profile;
+import java.awt.image.*;
 import java.io.ByteArrayOutputStream;
-import java.util.List;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
-
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.w3c.dom.NamedNodeMap;
+import java.util.List;
 
 /**
  * A JFIF (JPEG File Interchange Format) APP0 (Application-Specific)

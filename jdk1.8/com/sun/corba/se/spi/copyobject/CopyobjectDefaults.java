@@ -25,12 +25,11 @@
 
 package com.sun.corba.se.spi.copyobject ;
 
-import com.sun.corba.se.spi.orb.ORB ;
-
-import com.sun.corba.se.impl.copyobject.ReferenceObjectCopierImpl ;
-import com.sun.corba.se.impl.copyobject.FallbackObjectCopierImpl ;
-import com.sun.corba.se.impl.copyobject.ORBStreamObjectCopierImpl ;
-import com.sun.corba.se.impl.copyobject.JavaStreamObjectCopierImpl ;
+import com.sun.corba.se.impl.copyobject.FallbackObjectCopierImpl;
+import com.sun.corba.se.impl.copyobject.JavaStreamObjectCopierImpl;
+import com.sun.corba.se.impl.copyobject.ORBStreamObjectCopierImpl;
+import com.sun.corba.se.impl.copyobject.ReferenceObjectCopierImpl;
+import com.sun.corba.se.spi.orb.ORB;
 
 public abstract class CopyobjectDefaults
 {

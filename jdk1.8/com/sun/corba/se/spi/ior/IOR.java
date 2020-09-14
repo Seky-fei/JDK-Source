@@ -25,15 +25,11 @@
 
 package com.sun.corba.se.spi.ior;
 
-import java.util.List ;
-import java.util.Iterator ;
+import com.sun.corba.se.spi.ior.iiop.IIOPProfile;
+import com.sun.corba.se.spi.orb.ORB;
 
-import com.sun.corba.se.spi.orb.ORBVersion ;
-
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion ;
-import com.sun.corba.se.spi.ior.iiop.IIOPProfile ;
-
-import com.sun.corba.se.spi.orb.ORB ;
+import java.util.Iterator;
+import java.util.List;
 
 /** An IOR is represented as a list of profiles.
 * Only instances of TaggedProfile are contained in the list.

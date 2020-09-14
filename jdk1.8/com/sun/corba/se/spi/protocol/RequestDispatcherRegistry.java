@@ -25,13 +25,12 @@
 
 package com.sun.corba.se.spi.protocol;
 
+import com.sun.corba.se.pept.protocol.ClientRequestDispatcher;
+import com.sun.corba.se.spi.oa.ObjectAdapterFactory;
+import com.sun.corba.se.spi.protocol.CorbaServerRequestDispatcher;
+import com.sun.corba.se.spi.protocol.LocalClientRequestDispatcherFactory;
+
 import java.util.Set;
-
-import com.sun.corba.se.pept.protocol.ClientRequestDispatcher ;
-import com.sun.corba.se.spi.protocol.CorbaServerRequestDispatcher ;
-import com.sun.corba.se.spi.protocol.LocalClientRequestDispatcherFactory ;
-
-import com.sun.corba.se.spi.oa.ObjectAdapterFactory ;
 
 /**
  * This is a registry of all subcontract ID dependent objects.  This includes:

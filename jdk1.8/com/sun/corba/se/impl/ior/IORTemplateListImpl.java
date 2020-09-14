@@ -25,21 +25,13 @@
 
 package com.sun.corba.se.impl.ior;
 
-import java.util.ArrayList ;
-import java.util.Iterator ;
+import com.sun.corba.se.spi.ior.*;
+import com.sun.corba.se.spi.orb.ORB;
+import org.omg.CORBA_2_3.portable.InputStream;
+import org.omg.CORBA_2_3.portable.OutputStream;
 
-import org.omg.CORBA_2_3.portable.InputStream ;
-import org.omg.CORBA_2_3.portable.OutputStream ;
-
-import com.sun.corba.se.spi.ior.IORTemplate ;
-import com.sun.corba.se.spi.ior.IORTemplateList ;
-import com.sun.corba.se.spi.ior.ObjectId ;
-import com.sun.corba.se.spi.ior.IORTemplate ;
-import com.sun.corba.se.spi.ior.IOR ;
-import com.sun.corba.se.spi.ior.IORFactory ;
-import com.sun.corba.se.spi.ior.IORFactories ;
-
-import com.sun.corba.se.spi.orb.ORB ;
+import java.util.ArrayList;
+import java.util.Iterator;
 
 public class IORTemplateListImpl extends FreezableList implements IORTemplateList
 {

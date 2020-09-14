@@ -25,27 +25,20 @@
 
 package com.sun.imageio.plugins.wbmp;
 
-import java.awt.Rectangle;
-import java.awt.image.BufferedImage;
-import java.awt.image.DataBufferByte;
-import java.awt.image.MultiPixelPackedSampleModel;
-import java.awt.image.Raster;
-import java.awt.image.WritableRaster;
+import com.sun.imageio.plugins.common.I18N;
+import com.sun.imageio.plugins.common.ReaderUtil;
 
 import javax.imageio.IIOException;
-import javax.imageio.ImageReader;
 import javax.imageio.ImageReadParam;
+import javax.imageio.ImageReader;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.spi.ImageReaderSpi;
 import javax.imageio.stream.ImageInputStream;
-
-import java.io.*;
+import java.awt.*;
+import java.awt.image.*;
 import java.util.ArrayList;
 import java.util.Iterator;
-
-import com.sun.imageio.plugins.common.I18N;
-import com.sun.imageio.plugins.common.ReaderUtil;
 
 /** This class is the Java Image IO plugin reader for WBMP images.
  *  It may subsample the image, clip the image,

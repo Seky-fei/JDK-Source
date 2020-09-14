@@ -25,15 +25,14 @@
 
 package com.sun.imageio.plugins.jpeg;
 
+import org.w3c.dom.NamedNodeMap;
+import org.w3c.dom.Node;
+
+import javax.imageio.IIOException;
 import javax.imageio.metadata.IIOInvalidTreeException;
 import javax.imageio.metadata.IIOMetadataNode;
 import javax.imageio.stream.ImageOutputStream;
-import javax.imageio.IIOException;
-
 import java.io.IOException;
-
-import org.w3c.dom.Node;
-import org.w3c.dom.NamedNodeMap;
 
 /**
  * All metadata is stored in MarkerSegments.  Marker segments

@@ -25,7 +25,7 @@
 
 package com.sun.corba.se.impl.orbutil.graph ;
 
-import java.util.Set ;
+import java.util.Set;
 
 /** Node in a graph.
 */

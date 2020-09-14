@@ -24,12 +24,6 @@
  */
 package com.sun.java.swing.plaf.windows;
 
-import java.awt.*;
-import java.beans.*;
-import java.lang.ref.*;
-import javax.swing.*;
-import javax.swing.plaf.*;
-
 /**
  * Wrapper for a value from the desktop. The value is lazily looked up, and
  * can be accessed using the <code>UIManager.ActiveValue</code> method

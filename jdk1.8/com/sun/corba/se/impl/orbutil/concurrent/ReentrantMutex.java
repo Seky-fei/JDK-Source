@@ -38,7 +38,8 @@
 
 package com.sun.corba.se.impl.orbutil.concurrent;
 
-import com.sun.corba.se.impl.orbutil.ORBUtility ;
+import com.sun.corba.se.impl.orbutil.ORBUtility;
+import org.omg.CORBA.INTERNAL;
 
 /**
  * A simple reentrant mutual exclusion lock.
@@ -134,11 +135,10 @@ import com.sun.corba.se.impl.orbutil.ORBUtility ;
  * This version is reentrant: the same thread may acquire a mutex multiple
  * times, in which case it must release the mutex the same number of times
  * as it was acquired before another thread can acquire the mutex.
+ *
  * @see Semaphore
  * <p>[<a href="http://gee.cs.oswego.edu/dl/classes/EDU/oswego/cs/dl/util/concurrent/intro.html"> Introduction to this package. </a>]
-**/
-
-import org.omg.CORBA.INTERNAL ;
+ **/
 
 public class ReentrantMutex implements Sync  {
 

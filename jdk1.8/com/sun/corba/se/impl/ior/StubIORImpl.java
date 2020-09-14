@@ -31,21 +31,19 @@
 
 package com.sun.corba.se.impl.ior;
 
-import java.io.IOException;
-import java.io.ObjectOutputStream;
+import com.sun.corba.se.spi.presentation.rmi.StubAdapter;
+import org.omg.CORBA.ORB;
+import org.omg.CORBA.portable.Delegate;
+import org.omg.CORBA.portable.InputStream;
+import org.omg.CORBA.portable.OutputStream;
 import sun.corba.SharedSecrets;
 
-import org.omg.CORBA.ORB ;
-
-import org.omg.CORBA.portable.Delegate ;
-import org.omg.CORBA.portable.InputStream ;
-import org.omg.CORBA.portable.OutputStream ;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
 
 // Be very careful: com.sun.corba imports must not depend on
 // PEORB internal classes in ways that prevent portability to
 // other vendor's ORBs.
-import com.sun.corba.se.spi.presentation.rmi.StubAdapter ;
-import com.sun.corba.se.impl.orbutil.HexOutputStream ;
 
 /**
  * This class implements a very simply IOR representation

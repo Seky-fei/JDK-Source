@@ -27,15 +27,12 @@
  */
 package com.sun.corba.se.spi.servicecontext;
 
-import org.omg.IOP.RMICustomMaxStreamFormat;
-import javax.rmi.CORBA.*;
+import com.sun.corba.se.impl.orbutil.ORBUtility;
+import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
 import org.omg.CORBA.SystemException;
 import org.omg.CORBA_2_3.portable.InputStream;
 import org.omg.CORBA_2_3.portable.OutputStream;
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
-import com.sun.corba.se.impl.encoding.MarshalInputStream;
-import com.sun.corba.se.impl.encoding.MarshalOutputStream;
-import com.sun.corba.se.impl.orbutil.ORBUtility;
+import org.omg.IOP.RMICustomMaxStreamFormat;
 
 public class MaxStreamFormatVersionServiceContext extends ServiceContext {
 

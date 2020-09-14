@@ -24,20 +24,15 @@
  */
 package com.sun.corba.se.spi.orb ;
 
-import java.util.StringTokenizer ;
-import java.util.Arrays ;
-
-import java.lang.reflect.Array ;
-
-import java.net.URL ;
-import java.net.MalformedURLException ;
-
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
-
-import com.sun.corba.se.impl.logging.ORBUtilSystemException ;
-import com.sun.corba.se.impl.orbutil.ObjectUtility ;
-
+import com.sun.corba.se.impl.logging.ORBUtilSystemException;
+import com.sun.corba.se.spi.logging.CORBALogDomains;
 import sun.corba.SharedSecrets;
+
+import java.lang.reflect.Array;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.Arrays;
+import java.util.StringTokenizer;
 
 /** This is a static factory class for commonly used operations
 * for property parsing.  The following operations are supported:

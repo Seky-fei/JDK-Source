@@ -27,6 +27,7 @@ package com.sun.corba.se.impl.naming.pcosnaming;
 
 import org.omg.CORBA.Object;
 import org.omg.CosNaming.BindingType;
+
 import java.io.Serializable;
 
 /**

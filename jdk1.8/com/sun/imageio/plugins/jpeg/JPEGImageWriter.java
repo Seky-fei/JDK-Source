@@ -25,45 +25,28 @@
 
 package com.sun.imageio.plugins.jpeg;
 
-import javax.imageio.IIOException;
-import javax.imageio.ImageWriter;
-import javax.imageio.ImageWriteParam;
-import javax.imageio.IIOImage;
-import javax.imageio.ImageTypeSpecifier;
+import org.w3c.dom.Node;
+import sun.java2d.Disposer;
+import sun.java2d.DisposerRecord;
+
+import javax.imageio.*;
+import javax.imageio.metadata.IIOInvalidTreeException;
 import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.metadata.IIOMetadataFormatImpl;
-import javax.imageio.metadata.IIOInvalidTreeException;
-import javax.imageio.spi.ImageWriterSpi;
-import javax.imageio.stream.ImageOutputStream;
+import javax.imageio.plugins.jpeg.JPEGHuffmanTable;
 import javax.imageio.plugins.jpeg.JPEGImageWriteParam;
 import javax.imageio.plugins.jpeg.JPEGQTable;
-import javax.imageio.plugins.jpeg.JPEGHuffmanTable;
-
-import org.w3c.dom.Node;
-
-import java.awt.image.Raster;
-import java.awt.image.WritableRaster;
-import java.awt.image.DataBufferByte;
-import java.awt.image.ColorModel;
-import java.awt.image.IndexColorModel;
-import java.awt.image.ColorConvertOp;
-import java.awt.image.RenderedImage;
-import java.awt.image.BufferedImage;
+import javax.imageio.spi.ImageWriterSpi;
+import javax.imageio.stream.ImageOutputStream;
+import java.awt.*;
 import java.awt.color.ColorSpace;
 import java.awt.color.ICC_ColorSpace;
 import java.awt.color.ICC_Profile;
-import java.awt.Dimension;
-import java.awt.Rectangle;
-import java.awt.Transparency;
-
+import java.awt.image.*;
 import java.io.IOException;
-
-import java.util.List;
 import java.util.ArrayList;
 import java.util.Iterator;
-
-import sun.java2d.Disposer;
-import sun.java2d.DisposerRecord;
+import java.util.List;
 
 public class JPEGImageWriter extends ImageWriter {
 

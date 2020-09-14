@@ -25,18 +25,13 @@
 
 package com.sun.corba.se.impl.dynamicany;
 
-import org.omg.CORBA.TypeCode;
+import com.sun.corba.se.spi.orb.ORB;
 import org.omg.CORBA.Any;
-import org.omg.CORBA.NO_IMPLEMENT;
-import org.omg.DynamicAny.*;
-import org.omg.DynamicAny.DynAnyPackage.*;
-import java.math.BigDecimal;
-import java.math.BigInteger;
+import org.omg.CORBA.TypeCode;
 import org.omg.CORBA.TypeCodePackage.BadKind;
 
-import com.sun.corba.se.spi.orb.ORB ;
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
-import com.sun.corba.se.impl.logging.ORBUtilSystemException ;
+import java.math.BigDecimal;
+import java.math.BigInteger;
 
 public class DynFixedImpl extends DynAnyBasicImpl implements DynFixed
 {

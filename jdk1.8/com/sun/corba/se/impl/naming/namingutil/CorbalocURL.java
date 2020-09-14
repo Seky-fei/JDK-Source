@@ -25,10 +25,8 @@
 
 package com.sun.corba.se.impl.naming.namingutil;
 
-import java.util.*;
-
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
-import com.sun.corba.se.impl.logging.NamingSystemException ;
+import com.sun.corba.se.impl.logging.NamingSystemException;
+import com.sun.corba.se.spi.logging.CORBALogDomains;
 
 /**
  *  The corbaloc: URL definitions from the -ORBInitDef and -ORBDefaultInitDef's
