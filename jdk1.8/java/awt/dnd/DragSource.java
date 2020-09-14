@@ -25,13 +25,10 @@
 
 package java.awt.dnd;
 
-import java.awt.Component;
-import java.awt.Cursor;
-import java.awt.GraphicsEnvironment;
-import java.awt.HeadlessException;
-import java.awt.Image;
-import java.awt.Point;
-import java.awt.Toolkit;
+import sun.awt.dnd.SunDragSourceContextPeer;
+import sun.security.action.GetIntegerAction;
+
+import java.awt.*;
 import java.awt.datatransfer.FlavorMap;
 import java.awt.datatransfer.SystemFlavorMap;
 import java.awt.datatransfer.Transferable;
@@ -42,8 +39,6 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.security.AccessController;
 import java.util.EventListener;
-import sun.awt.dnd.SunDragSourceContextPeer;
-import sun.security.action.GetIntegerAction;
 
 
 /**

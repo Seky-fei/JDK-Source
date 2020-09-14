@@ -26,26 +26,17 @@
 
 package java.awt.dnd;
 
-import java.awt.Component;
-import java.awt.Cursor;
-
-import java.awt.Image;
-import java.awt.Point;
-
-import java.awt.event.InputEvent;
-
+import java.awt.*;
 import java.awt.datatransfer.Transferable;
-
-import java.io.InvalidObjectException;
-import java.util.EventObject;
-
-import java.util.Collections;
-import java.util.List;
-import java.util.Iterator;
-
+import java.awt.event.InputEvent;
 import java.io.IOException;
+import java.io.InvalidObjectException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.util.Collections;
+import java.util.EventObject;
+import java.util.Iterator;
+import java.util.List;
 
 
 /**

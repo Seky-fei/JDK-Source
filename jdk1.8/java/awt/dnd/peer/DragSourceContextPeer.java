@@ -25,9 +25,7 @@
 
 package java.awt.dnd.peer;
 
-import java.awt.Cursor;
-import java.awt.Image;
-import java.awt.Point;
+import java.awt.*;
 import java.awt.dnd.DragSourceContext;
 import java.awt.dnd.InvalidDnDOperationException;
 

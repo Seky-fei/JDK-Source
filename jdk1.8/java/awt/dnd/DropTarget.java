@@ -25,29 +25,20 @@
 
 package java.awt.dnd;
 
-import java.util.TooManyListenersException;
-
+import javax.swing.*;
+import java.awt.*;
+import java.awt.datatransfer.FlavorMap;
+import java.awt.datatransfer.SystemFlavorMap;
+import java.awt.dnd.peer.DropTargetPeer;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.peer.ComponentPeer;
+import java.awt.peer.LightweightPeer;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
-
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.GraphicsEnvironment;
-import java.awt.HeadlessException;
-import java.awt.Insets;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.Toolkit;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.datatransfer.FlavorMap;
-import java.awt.datatransfer.SystemFlavorMap;
-import javax.swing.Timer;
-import java.awt.peer.ComponentPeer;
-import java.awt.peer.LightweightPeer;
-import java.awt.dnd.peer.DropTargetPeer;
+import java.util.TooManyListenersException;
 
 
 /**

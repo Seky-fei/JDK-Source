@@ -24,9 +24,9 @@
  */
 package java.awt.dnd;
 
-import java.awt.AWTEventMulticaster;
-import java.io.ObjectOutputStream;
+import java.awt.*;
 import java.io.IOException;
+import java.io.ObjectOutputStream;
 import java.util.EventListener;
 
 

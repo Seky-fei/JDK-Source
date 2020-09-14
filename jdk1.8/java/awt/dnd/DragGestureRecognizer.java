@@ -25,19 +25,11 @@
 
 package java.awt.dnd;
 
+import java.awt.*;
 import java.awt.event.InputEvent;
-import java.awt.Component;
-import java.awt.Point;
-
-import java.io.InvalidObjectException;
-import java.util.Collections;
-import java.util.TooManyListenersException;
+import java.io.*;
 import java.util.ArrayList;
-
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
+import java.util.TooManyListenersException;
 
 /**
  * The <code>DragGestureRecognizer</code> is an

@@ -25,8 +25,7 @@
 
 package java.awt.dnd;
 
-import java.awt.Insets;
-import java.awt.Point;
+import java.awt.*;
 
 /**
  * During DnD operations it is possible that a user may wish to drop the
